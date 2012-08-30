@@ -1,0 +1,3 @@
+accessing
+pop
+	^ stack pop

@@ -1,0 +1,15 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"compiler",
+		"output" ],
+	"name" : "X64CodeStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

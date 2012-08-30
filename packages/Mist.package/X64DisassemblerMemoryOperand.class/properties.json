@@ -1,0 +1,17 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baseRegister",
+		"indexRegister",
+		"indexScale",
+		"displacement" ],
+	"name" : "X64DisassemblerMemoryOperand",
+	"pools" : [
+		 ],
+	"super" : "X64DisassemblerOperand",
+	"type" : "normal" }

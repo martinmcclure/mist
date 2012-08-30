@@ -1,0 +1,18 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"assignableRegisters",
+		"codeStream",
+		"stackTempsUsed",
+		"scopeStack",
+		"stackTemps" ],
+	"name" : "FogX64Compiler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

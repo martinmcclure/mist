@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"disassemble:startAddress:" : "MartinMcClure 12/22/2011 13:16" },
+	"instance" : {
+		"breakpoint" : "MartinMcClure 12/22/2011 15:30",
+		"byte" : "MartinMcClure 12/22/2011 14:24",
+		"currentAddress:" : "MartinMcClure 12/22/2011 13:19",
+		"ignoredNames" : "MartinMcClure 1/6/2012 22:37",
+		"imm64" : "MartinMcClure 12/22/2011 14:23",
+		"initialize" : "MartinMcClure 1/6/2012 21:21",
+		"instruction" : "MartinMcClure 1/6/2012 21:21",
+		"instructions" : "MartinMcClure 12/22/2011 15:09",
+		"modRm" : "MartinMcClure 12/22/2011 14:34",
+		"mov" : "MartinMcClure 12/22/2011 15:19",
+		"movImm64ToReg" : "MartinMcClure 12/24/2011 18:38",
+		"opcodeAndOperands" : "MartinMcClure 12/22/2011 15:25",
+		"rexPrefix" : "MartinMcClure 12/22/2011 14:57",
+		"start" : "MartinMcClure 12/22/2011 15:10",
+		"syscall" : "MartinMcClure 12/22/2011 15:35" } }

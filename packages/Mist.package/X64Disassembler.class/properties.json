@@ -1,0 +1,16 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input",
+		"output",
+		"currentAddress" ],
+	"name" : "X64Disassembler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

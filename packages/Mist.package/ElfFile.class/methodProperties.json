@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"fortyTwo" : "MartinMcClure 10/20/2010 21:02",
+		"fortyTwoWithBreak" : "MartinMcClure 8/28/2010 13:53" },
+	"instance" : {
+		"addSegment:" : "MartinMcClure 8/18/2010 15:10",
+		"entryAddress:" : "MartinMcClure 8/16/2010 11:32",
+		"initialize" : "MartinMcClure 8/16/2010 11:49",
+		"write" : "MartinMcClure 8/16/2010 11:45",
+		"write1:" : "MartinMcClure 8/16/2010 11:20",
+		"write2:" : "MartinMcClure 8/16/2010 11:29",
+		"write4:" : "MartinMcClure 8/18/2010 15:15",
+		"write8:" : "MartinMcClure 8/18/2010 15:15",
+		"writeElfHeader" : "MartinMcClure 8/19/2010 07:57",
+		"writeIdent" : "MartinMcClure 8/18/2010 15:22",
+		"writeProgramHeaderTable" : "MartinMcClure 11/5/2011 08:59",
+		"writeSegments" : "MartinMcClure 8/16/2010 11:12",
+		"writeString:" : "MartinMcClure 8/16/2010 11:21",
+		"writeToFileNamed:" : "MartinMcClure 8/18/2010 15:13",
+		"writeZeros:" : "MartinMcClure 8/16/2010 11:21" } }

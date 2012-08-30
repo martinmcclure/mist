@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptableRegisters" : "MartinMcClure 5/31/2011 08:04",
+		"acceptableRegisters:" : "MartinMcClure 5/31/2011 08:07",
+		"initialize" : "MartinMcClure 11/3/2011 10:21",
+		"intersection:" : "MartinMcClure 5/31/2011 08:15",
+		"isAcceptable:" : "MartinMcClure 8/25/2011 08:54",
+		"isStackFrameLocationOK" : "MartinMcClure 5/31/2011 08:04",
+		"isStackFrameLocationOK:" : "MartinMcClure 5/17/2011 21:48",
+		"mustBeRegister" : "MartinMcClure 5/26/2011 16:58",
+		"nextAvailableLocation" : "MartinMcClure 5/31/2011 08:49",
+		"nextAvailableLocationCompiler:" : "MartinMcClure 5/31/2011 08:52",
+		"onlyRegister:" : "MartinMcClure 5/26/2011 17:20",
+		"printOn:" : "MartinMcClure 7/15/2011 20:58",
+		"unacceptableRegisters:" : "MartinMcClure 5/17/2011 21:51" } }

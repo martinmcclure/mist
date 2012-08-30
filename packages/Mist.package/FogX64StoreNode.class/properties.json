@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 11/5/2011 05:30",
+	"instvars" : [
+		 ],
+	"name" : "FogX64StoreNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64FetchOrStoreNode",
+	"type" : "normal" }

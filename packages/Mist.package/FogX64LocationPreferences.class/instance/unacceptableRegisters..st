@@ -1,0 +1,3 @@
+accessing
+unacceptableRegisters: aCollection
+	acceptableRegisters removeAll: aCollection

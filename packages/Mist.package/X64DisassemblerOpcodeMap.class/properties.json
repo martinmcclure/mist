@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"map" ],
+	"name" : "X64DisassemblerOpcodeMap",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

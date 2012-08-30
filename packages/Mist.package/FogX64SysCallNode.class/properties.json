@@ -1,0 +1,15 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"NamesToNumbers",
+		"NumbersToNames" ],
+	"commentStamp" : "MartinMcClure 5/26/2011 15:15",
+	"instvars" : [
+		"number" ],
+	"name" : "FogX64SysCallNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64Node",
+	"type" : "normal" }

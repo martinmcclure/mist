@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FogX64AnyLocation",
+	"pools" : [
+		 ],
+	"super" : "FogX64Location",
+	"type" : "normal" }

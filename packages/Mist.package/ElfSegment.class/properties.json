@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bytes" ],
+	"name" : "ElfSegment",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FogX64IntAddNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64DestructiveOpNode",
+	"type" : "normal" }

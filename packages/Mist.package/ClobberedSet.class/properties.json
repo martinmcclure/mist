@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"compiler" ],
+	"name" : "ClobberedSet",
+	"pools" : [
+		 ],
+	"super" : "IdentitySet",
+	"type" : "normal" }

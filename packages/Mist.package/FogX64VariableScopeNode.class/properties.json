@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"vDict" ],
+	"name" : "FogX64VariableScopeNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64Node",
+	"type" : "normal" }

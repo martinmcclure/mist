@@ -1,0 +1,19 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		"outputLocationPreferences",
+		"inputsLocationPreferences" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"beforeAssignments",
+		"compiler",
+		"declaredVariables",
+		"children",
+		"parent" ],
+	"name" : "FogX64Node",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

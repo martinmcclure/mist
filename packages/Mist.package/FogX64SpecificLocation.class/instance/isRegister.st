@@ -1,0 +1,3 @@
+testing
+isRegister
+	^ self subclassResponsibility

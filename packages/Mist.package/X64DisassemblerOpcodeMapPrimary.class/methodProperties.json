@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"initialize" : "MartinMcClure 1/9/2012 21:27",
+		"singleton" : "MartinMcClure 1/9/2012 21:25" },
+	"instance" : {
+		"actionFor:repePrefix:repnePrefix:addrSizePrefix:" : "MartinMcClure 2/13/2012 17:35",
+		"from:to:by:do:" : "MartinMcClure 2/13/2012 17:28",
+		"initialize" : "MartinMcClure 3/22/2012 13:02",
+		"initializeBLineMovs" : "MartinMcClure 3/22/2012 14:45",
+		"initializeRexPrefixes" : "MartinMcClure 2/13/2012 18:04" } }

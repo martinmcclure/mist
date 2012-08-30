@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"immediateValue" ],
+	"name" : "X64DisassemblerImmediateOperand",
+	"pools" : [
+		 ],
+	"super" : "X64DisassemblerOperand",
+	"type" : "normal" }

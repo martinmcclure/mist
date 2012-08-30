@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"parent:child:" : "MartinMcClure 11/15/2010 22:11" },
+	"instance" : {
+		"assignAsDummy" : "MartinMcClure 8/25/2011 08:43",
+		"beDummy" : "MartinMcClure 11/19/2010 21:42",
+		"bothAcceptable" : "MartinMcClure 8/25/2011 08:39",
+		"child" : "MartinMcClure 11/15/2010 21:50",
+		"childAcceptable" : "MartinMcClure 5/26/2011 17:42",
+		"childAcceptable:" : "MartinMcClure 5/26/2011 17:42",
+		"consumptionLocation" : "MartinMcClure 8/25/2011 08:37",
+		"consumptionLocation:" : "MartinMcClure 8/25/2011 08:37",
+		"generationLocation" : "MartinMcClure 8/25/2011 08:37",
+		"generationLocation:" : "MartinMcClure 8/25/2011 08:37",
+		"initialize" : "MartinMcClure 5/26/2011 18:04",
+		"isDummy" : "MartinMcClure 12/19/2010 22:24",
+		"isImplicit" : "MartinMcClure 12/18/2010 16:52",
+		"locationAvoiding:compiler:" : "MartinMcClure 6/18/2011 08:14",
+		"parent:child:" : "MartinMcClure 11/15/2010 22:12",
+		"parentAcceptable" : "MartinMcClure 5/26/2011 17:43",
+		"parentAcceptable:" : "MartinMcClure 5/26/2011 17:43",
+		"printOn:" : "MartinMcClure 11/20/2010 13:38",
+		"restingLocation" : "MartinMcClure 8/25/2011 08:38",
+		"restingLocation:" : "MartinMcClure 8/25/2011 08:38" } }

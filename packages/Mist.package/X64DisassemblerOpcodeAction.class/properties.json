@@ -1,0 +1,15 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mnemonic",
+		"operandTypes" ],
+	"name" : "X64DisassemblerOpcodeAction",
+	"pools" : [
+		 ],
+	"super" : "X64DisassemblerOpcodeMapAction",
+	"type" : "normal" }

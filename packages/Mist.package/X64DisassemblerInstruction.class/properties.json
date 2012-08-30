@@ -1,0 +1,35 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RegisterNames" ],
+	"commentStamp" : "MartinMcClure 1/7/2012 12:27",
+	"instvars" : [
+		"bBit",
+		"bytes",
+		"displacementSize",
+		"displacementValue",
+		"expectsModRM",
+		"expectsSIB",
+		"haveAddrSizePrefix",
+		"haveLockPrefix",
+		"haveOpSizePrefix",
+		"haveRepePrefix",
+		"haveRepnePrefix",
+		"immediateSize",
+		"immediateValue",
+		"mnemonic",
+		"nextOpcodeMap",
+		"operands",
+		"rBit",
+		"regIsDest",
+		"wBit",
+		"xBit",
+		"startAddress",
+		"hasCompleteOpcode" ],
+	"name" : "X64DisassemblerInstruction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

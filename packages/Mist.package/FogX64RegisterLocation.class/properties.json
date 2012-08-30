@@ -1,0 +1,15 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Registers" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"number" ],
+	"name" : "FogX64RegisterLocation",
+	"pools" : [
+		 ],
+	"super" : "FogX64SpecificLocation",
+	"type" : "normal" }

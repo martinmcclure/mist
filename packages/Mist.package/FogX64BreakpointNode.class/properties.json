@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 5/26/2011 16:31",
+	"instvars" : [
+		 ],
+	"name" : "FogX64BreakpointNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64LeafNode",
+	"type" : "normal" }

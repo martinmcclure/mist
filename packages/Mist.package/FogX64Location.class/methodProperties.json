@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"anyLocation" : "MartinMcClure 11/7/2010 19:08",
+		"noLocation" : "MartinMcClure 11/6/2010 10:08",
+		"r:" : "MartinMcClure 11/3/2011 10:20" },
+	"instance" : {
+		"isAnyLocation" : "MartinMcClure 11/7/2010 20:10",
+		"isAssignable" : "MartinMcClure 12/27/2010 21:47",
+		"isForDeclaredVariable" : "MartinMcClure 12/27/2010 22:06",
+		"isIndirectRegister" : "MartinMcClure 12/31/2010 10:36",
+		"isMemory" : "MartinMcClure 12/30/2010 18:57",
+		"isNoLocation" : "MartinMcClure 11/7/2010 01:15",
+		"isRegister" : "MartinMcClure 6/18/2011 10:09" } }
