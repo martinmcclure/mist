@@ -11,4 +11,4 @@ compile: program andWriteTo: filename
 	seg bytes: nativeCode.
 	elfFile addSegment: seg.
 	elfFile writeToFileNamed: filename.	"self halt."
-	^ X64Disassembler disassemble: nativeCode startAddress: 16r00400078
+	"^ X64Disassembler disassemble: nativeCode startAddress: 16r00400078"
