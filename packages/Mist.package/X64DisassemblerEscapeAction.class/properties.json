@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 9/2/2012 02:53",
+	"commentStamp" : "",
 	"instvars" : [
-		"mnemonic",
-		"operandTypes" ],
-	"name" : "X64DisassemblerOpcodeAction",
+		"map" ],
+	"name" : "X64DisassemblerEscapeAction",
 	"pools" : [
 		 ],
 	"super" : "X64DisassemblerOpcodeMapAction",

@@ -9,4 +9,4 @@ initialize
 	nextOpcodeMap := X64DisassemblerOpcodeMapPrimary singleton.
 	operands := OrderedCollection new: 2.
 	regIsDest := nil.	"Force this to be set before use; no default"
-	startAddress := 0
+	immediateBytesReceived := startAddress := 0

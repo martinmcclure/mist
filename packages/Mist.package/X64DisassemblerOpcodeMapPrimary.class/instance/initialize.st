@@ -2,6 +2,7 @@ initialize-release
 initialize
 	map := Array new: 256.
 	self atAllPut: self errorAction.
+	self initializeEscapeOpcodes.
 	self
 		atAllFrom: 16r00 to: 16r05 putMnemonic: 'add';
 		atAllFrom: 16r08 to: 16r0D putMnemonic: 'or';
@@ -38,4 +39,5 @@ initialize
 			putOperandTypes: #(#rAX #Iz).
 	self
 		initializeRexPrefixes;
-		initializeBLineMovs
+		initializeBLineMovs;
+		initializeCLine

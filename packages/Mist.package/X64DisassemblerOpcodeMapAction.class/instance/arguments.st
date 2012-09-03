@@ -1,3 +1,0 @@
-private
-arguments
-	^ self subclassResponsibility

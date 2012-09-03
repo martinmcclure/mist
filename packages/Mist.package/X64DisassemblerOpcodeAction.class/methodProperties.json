@@ -4,4 +4,5 @@
 	"instance" : {
 		"initialize" : "MartinMcClure 2/13/2012 17:31",
 		"mnemonic:" : "MartinMcClure 2/13/2012 17:17",
-		"operandTypes:" : "MartinMcClure 2/13/2012 17:32" } }
+		"operandTypes:" : "MartinMcClure 2/13/2012 17:32",
+		"performOn:" : "MartinMcClure 9/2/2012 03:03" } }

@@ -5,6 +5,8 @@
 	"instance" : {
 		"actionFor:repePrefix:repnePrefix:addrSizePrefix:" : "MartinMcClure 2/13/2012 17:35",
 		"from:to:by:do:" : "MartinMcClure 2/13/2012 17:28",
-		"initialize" : "MartinMcClure 3/22/2012 13:02",
+		"initialize" : "MartinMcClure 9/2/2012 09:31",
 		"initializeBLineMovs" : "MartinMcClure 3/22/2012 14:45",
+		"initializeCLine" : "MartinMcClure 9/2/2012 06:20",
+		"initializeEscapeOpcodes" : "MartinMcClure 9/2/2012 13:22",
 		"initializeRexPrefixes" : "MartinMcClure 2/13/2012 18:04" } }

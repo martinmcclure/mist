@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"at:put:" : "MartinMcClure 9/2/2012 06:19",
 		"atAllFrom:to:by:put:" : "MartinMcClure 2/13/2012 16:58",
 		"atAllFrom:to:by:putOperandTypes:" : "MartinMcClure 2/13/2012 17:25",
 		"atAllFrom:to:put:" : "MartinMcClure 2/13/2012 16:59",

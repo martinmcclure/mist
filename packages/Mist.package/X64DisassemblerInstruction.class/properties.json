@@ -17,6 +17,7 @@
 		"haveOpSizePrefix",
 		"haveRepePrefix",
 		"haveRepnePrefix",
+		"immediateBytesReceived",
 		"immediateSize",
 		"immediateValue",
 		"mnemonic",
