@@ -1,3 +1,3 @@
 accessing
 push: aScope
-	stack push: aScope
+	stack addFirst: aScope
