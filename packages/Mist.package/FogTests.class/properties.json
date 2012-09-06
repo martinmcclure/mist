@@ -10,5 +10,5 @@
 	"name" : "FogTests",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

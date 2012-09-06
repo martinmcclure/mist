@@ -2,10 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"compile:andRun:stdin:" : "tfel 9/6/2012 16:28",
 		"compile:andWriteTo:" : "MartinMcClure 8/30/2012 12:20",
-		"consume1" : "MartinMcClure 11/7/2011 10:48",
-		"echo1" : "MartinMcClure 1/2/2011 11:53",
-		"fortyTwo" : "MartinMcClure 8/31/2012 00:15",
-		"print7" : "MartinMcClure 11/5/2011 07:29",
-		"printH" : "MartinMcClure 12/18/2010 10:13",
-		"threePlusFour" : "MartinMcClure 12/18/2010 09:31" } }
+		"compileAndRun:" : "tfel 9/6/2012 16:27",
+		"compileAndRun:stdin:" : "tfel 9/6/2012 16:25",
+		"execute:withStdin:" : "tfel 9/6/2012 16:21",
+		"tearDown" : "tfel 9/6/2012 16:04",
+		"testConsume1" : "tfel 9/6/2012 16:29",
+		"testEcho1" : "tfel 9/6/2012 16:29",
+		"testFortyTwo" : "tfel 9/6/2012 16:19",
+		"testPrint7" : "tfel 9/6/2012 16:07",
+		"testPrintH" : "tfel 9/6/2012 16:16",
+		"testThreePlusFour" : "tfel 9/6/2012 16:18" } }
