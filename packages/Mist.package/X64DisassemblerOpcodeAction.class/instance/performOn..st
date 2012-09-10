@@ -4,5 +4,6 @@ performOn: anInstruction
 
 	anInstruction
 		hasCompleteOpcode: true;
-		mnemonic: mnemonic.
+		mnemonic: mnemonic;
+		defaultOpSizeIs64: defaultOpSizeIs64.
 	operandTypes do: [ :typeSymbol | anInstruction perform: typeSymbol ]

@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bytesSoFar",
-		"immediateValue" ],
-	"name" : "X64DisassemblerImmediateOperand",
+		 ],
+	"name" : "X64DisassemblerRPlusOperand",
 	"pools" : [
 		 ],
-	"super" : "X64DisassemblerOperand",
+	"super" : "X64DisassemblerRegisterOperand",
 	"type" : "normal" }

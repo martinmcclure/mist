@@ -3,10 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"RegisterNames" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"instruction" ],
 	"name" : "X64DisassemblerOperand",
 	"pools" : [
 		 ],

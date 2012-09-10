@@ -1,3 +1,0 @@
-rules-streams
-start
-	^ instructions

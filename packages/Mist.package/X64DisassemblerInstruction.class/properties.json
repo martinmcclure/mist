@@ -8,6 +8,7 @@
 	"instvars" : [
 		"bBit",
 		"bytes",
+		"defaultOpSizeIs64",
 		"displacementSize",
 		"displacementValue",
 		"expectsModRM",
@@ -20,6 +21,7 @@
 		"immediateBytesReceived",
 		"immediateSize",
 		"immediateValue",
+		"isByteOpMode",
 		"mnemonic",
 		"nextOpcodeMap",
 		"operands",

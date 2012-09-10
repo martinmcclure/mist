@@ -5,7 +5,8 @@ print7
 	| program |
 	program := Fog
 		program:
-			{(Fog
+			{Fog breakpoint.
+			(Fog
 				variableScope: {'bufPtr'}
 				steps:
 					{(Fog

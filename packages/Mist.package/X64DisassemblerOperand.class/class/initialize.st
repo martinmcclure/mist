@@ -1,5 +1,5 @@
 class initialization
 initialize
-	"X64DisassemblerInstruction initialize"
+	"X64DisassemblerOperand initialize"
 
 	self initializeRegisterNames.

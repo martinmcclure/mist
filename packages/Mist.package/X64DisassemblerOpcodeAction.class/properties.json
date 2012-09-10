@@ -7,7 +7,8 @@
 	"commentStamp" : "MartinMcClure 9/2/2012 02:53",
 	"instvars" : [
 		"mnemonic",
-		"operandTypes" ],
+		"operandTypes",
+		"defaultOpSizeIs64" ],
 	"name" : "X64DisassemblerOpcodeAction",
 	"pools" : [
 		 ],
