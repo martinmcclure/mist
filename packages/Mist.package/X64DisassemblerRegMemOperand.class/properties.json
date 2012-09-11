@@ -4,13 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MartinMcClure 9/10/2012 07:46",
 	"instvars" : [
-		"baseRegister",
-		"indexRegister",
+		"mod",
+		"regNum",
+		"baseRegNum",
+		"indexRegNum",
 		"indexScale",
 		"displacement" ],
-	"name" : "X64DisassemblerMemoryOperand",
+	"name" : "X64DisassemblerRegMemOperand",
 	"pools" : [
 		 ],
 	"super" : "X64DisassemblerOperand",

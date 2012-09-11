@@ -1,8 +1,6 @@
 address modes sent by perform:
 Ev
 	"Op mode Ev, register or memory as specified by r/m field of modRM byte. 
-	Operand size could be 2, 4, or 8 bytes, but is always assumed to 64-bit in Mist."
+	Operand size could be 2, 4, or 8 bytes."
 
-	expectsModRM := true.
-	regIsDest := operands isEmpty not.
-	operands add: 'Ev placeholder'. "Waiting for modRM byte (and possibly SIB) before we can compute the actual operand."
+	operands add: (X64DisassemblerRegMemOperand forInstruction: self)

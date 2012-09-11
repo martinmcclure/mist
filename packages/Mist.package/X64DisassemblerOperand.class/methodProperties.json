@@ -6,5 +6,6 @@
 	"instance" : {
 		"immediateByte:" : "MartinMcClure 9/9/2012 23:42",
 		"informImmediate" : "MartinMcClure 9/7/2012 09:16",
-		"informModRM" : "MartinMcClure 9/7/2012 09:13",
-		"instruction:" : "MartinMcClure 9/5/2012 02:16" } }
+		"informModRM" : "MartinMcClure 9/10/2012 07:23",
+		"instruction:" : "MartinMcClure 9/5/2012 02:16",
+		"modRMByte:" : "MartinMcClure 9/10/2012 07:37" } }

@@ -1,6 +1,6 @@
 address modes sent by perform:
 plusR
-	"Op mode +rq. Always assumed to be a 64-bit register in Mist.
+	"Op mode +rb, +rw, +rd, or +rq. 
 	The operand is a register. Which register is specified by the REX.B and the low-order three bits of the opcode"
 
 	| regNum |

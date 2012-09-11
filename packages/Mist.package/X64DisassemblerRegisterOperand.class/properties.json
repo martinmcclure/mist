@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MartinMcClure 9/10/2012 07:28",
 	"instvars" : [
 		"regNum" ],
 	"name" : "X64DisassemblerRegisterOperand",
