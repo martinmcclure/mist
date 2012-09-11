@@ -2,5 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"modRMByte:" : "MartinMcClure 9/10/2012 19:27",
-		"printOn:" : "MartinMcClure 9/10/2012 19:29" } }
+		"initialize" : "MartinMcClure 9/11/2012 03:35",
+		"modRMByte:" : "MartinMcClure 9/11/2012 03:31",
+		"printMemoryRefOn:" : "MartinMcClure 9/11/2012 03:24",
+		"printNonSibRefOn:" : "MartinMcClure 9/11/2012 03:54",
+		"printOn:" : "MartinMcClure 9/11/2012 03:04",
+		"printSibRefOn:" : "MartinMcClure 9/11/2012 03:52",
+		"printSignedDisplacementOn:" : "MartinMcClure 9/11/2012 03:53",
+		"requireSIB" : "MartinMcClure 9/11/2012 02:43",
+		"sibByte:" : "MartinMcClure 9/11/2012 03:35" } }

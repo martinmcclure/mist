@@ -5,4 +5,7 @@ printOn: stream
 			| regName |
 			regName := (RegisterNames at: instruction effectiveOperandSize) at: regNum + 1.
 			stream nextPutAll: regName ]
-		ifFalse: [ self error: 'unhandled r/m mode' ]
+		ifFalse: [ 
+			stream nextPut: $[.
+			self printMemoryRefOn: stream.
+			stream nextPut: $] ]

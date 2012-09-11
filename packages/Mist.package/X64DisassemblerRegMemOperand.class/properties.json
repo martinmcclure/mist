@@ -8,10 +8,14 @@
 	"instvars" : [
 		"mod",
 		"regNum",
+		"expectsSIB",
 		"baseRegNum",
 		"indexRegNum",
 		"indexScale",
-		"displacement" ],
+		"displacement",
+		"dispBytesSoFar",
+		"isRipRelative",
+		"isAbsolute" ],
 	"name" : "X64DisassemblerRegMemOperand",
 	"pools" : [
 		 ],
