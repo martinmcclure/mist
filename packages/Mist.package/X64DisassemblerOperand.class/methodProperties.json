@@ -4,6 +4,7 @@
 		"initialize" : "MartinMcClure 9/5/2012 02:07",
 		"initializeRegisterNames" : "MartinMcClure 9/5/2012 02:06" },
 	"instance" : {
+		"dispByte:" : "MartinMcClure 9/12/2012 04:45",
 		"immediateByte:" : "MartinMcClure 9/9/2012 23:42",
 		"informImmediate" : "MartinMcClure 9/7/2012 09:16",
 		"informModRM" : "MartinMcClure 9/10/2012 07:23",

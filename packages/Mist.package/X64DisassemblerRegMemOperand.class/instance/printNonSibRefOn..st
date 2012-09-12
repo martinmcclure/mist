@@ -8,6 +8,4 @@ printNonSibRefOn: stream
 		ifFalse: [ (RegisterNames at: 8) at: regNum + 1 ].
 	stream nextPutAll: regName.
 	dispBytesSoFar ~= 0
-		ifTrue: [ 
-			stream nextPut: $+.
-			self printSignedDisplacementOn: stream ]
+		ifTrue: [ self printSignedDisplacementOn: stream ]

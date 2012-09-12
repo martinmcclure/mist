@@ -8,7 +8,8 @@ consume1
 	| program |
 	program := Fog
 		program:
-			{(Fog
+			{(Fog breakpoint).
+			(Fog
 				variableScope:
 					{'termiosPtr'.
 					'bufPtr'}

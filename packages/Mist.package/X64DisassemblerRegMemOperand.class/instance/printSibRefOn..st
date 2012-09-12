@@ -1,7 +1,9 @@
 printing
 printSibRefOn: stream
 	isAbsolute
-		ifTrue: [ self printSignedDisplacementOn: stream ]
+		ifTrue: [ 
+			"Absolute addresses probably won't be used in Mist, but will print with a sign if they are."
+			self printSignedDisplacementOn: stream ]
 		ifFalse: [ 
 			| baseRegName |
 			baseRegName := (RegisterNames at: 8) at: baseRegNum + 1.
@@ -16,6 +18,4 @@ printSibRefOn: stream
 						nextPut: $*.
 					indexScale printOn: stream ].
 			dispBytesSoFar ~= 0
-				ifTrue: [ 
-					stream nextPut: $+.
-					self printSignedDisplacementOn: stream ] ]
+				ifTrue: [ self printSignedDisplacementOn: stream ] ]
