@@ -1,0 +1,26 @@
+language: erlang
+
+# Choose which platforms you want your builds run against (done in parallel)
+env:
+   - ST=Pharo-1.4
+   - ST=Squeak-4.3
+
+# Boilerplate ... should be no reason to edit the install section
+install:
+   - export PROJECT_HOME="$(pwd)"
+   - cd $HOME
+   - wget -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
+   - unzip -q builderCI.zip
+   - cd dalehenrich-builderCI*
+   - source build_env_vars
+   - ln -s $PROJECT_HOME $GIT_PATH
+   - ./build_image.sh
+
+# edit the `build.sh` if you have put travisCI.st in a non-standard location
+script:
+   - ./build.sh -i $ST -m -f "$PROJECT_HOME/travisCI.st" -o travisCI
+   - cd "${BUILD_PATH}/travisCI/"
+   - $BUILDER_CI_HOME/buildImageErrorCheck.sh # dump Transcript on error and exit
+   - $BUILDER_CI_HOME/buildTravisStatusCheck.sh # dump Transcript on failed tests and exit
+# reach here on successful build
+#   - cat TravisTranscript.txt
