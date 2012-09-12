@@ -1,8 +1,8 @@
 tests
-threePlusFour
+testThreePlusFour
 	"FogTests new threePlusFour"
 
-	| program |
+	| program process |
 	program :=  Fog
 		program:
 			{Fog
@@ -10,4 +10,5 @@ threePlusFour
 				args:
 					{Fog intAdd: (Fog intConstant: 3) 
 						to: (Fog intConstant: 4)}}.
-	^ self compile: program andWriteTo: 'threePlusFour'
+	process := self compileAndRun: program.
+	self assert: (process exitStatus \\ 255) = 7
