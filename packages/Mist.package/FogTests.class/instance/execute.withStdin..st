@@ -10,4 +10,5 @@ execute: aFile withStdin: stdin
 		arguments: #()
 		environment: (Dictionary newFrom: {'HOME' -> '/tmp'})
 		descriptors: {stdin. stdout. stderr}.
+	self waitForProcess: process.
 	^ process

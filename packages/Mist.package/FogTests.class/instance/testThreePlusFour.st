@@ -11,3 +11,4 @@ testThreePlusFour
 					{Fog intAdd: (Fog intConstant: 3) 
 						to: (Fog intConstant: 4)}}.
 	process := self compileAndRun: program.
+	self assert: (process exitStatus \\ 255) = 7

@@ -8,3 +8,4 @@ testFortyTwo
 			{"(Fog breakpoint)."
 			(Fog sysCall: #exit_group args: {(Fog intConstant: 42)})}.
 	process := self compileAndRun: program.
+	self assert: (process exitStatus \\ 255) = 42

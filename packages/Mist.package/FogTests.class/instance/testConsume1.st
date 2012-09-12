@@ -74,3 +74,4 @@ testConsume1
 	stdin := StandardFileStream forceNewFileNamed: 'testEcho1.stdin'.
 	stdin nextPutAll: 'f'; flush.
 	process := self compileAndRun: program stdin: stdin.
+	self assert: (process exitStatus \\ 255) = $f asInteger
