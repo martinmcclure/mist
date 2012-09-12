@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMist",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

@@ -1,6 +1,10 @@
-Gofer new
-  package: 'Mist';
-  repository: (MCFileTreeRepository path: MetacelloBuilderTravisCI gitPath, '/mist/packages');
+[Scanner
+  allowUnderscoreAsAssignment: false;
+  prefAllowUnderscoreSelectors: true] on: Error do: ["Just for Squeak"].
+
+Metacello new
+  baseline: 'Mist';
+  repository: 'filetree://', MetacelloBuilderTravisCI gitPath, '/mist/packages';
   load.
 
 "Run the tests"
