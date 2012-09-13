@@ -1,0 +1,6 @@
+*.changes
+*.image
+*.sources
+*Debug.log
+package-cache/
+github-cache/

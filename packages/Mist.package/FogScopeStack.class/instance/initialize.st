@@ -1,4 +1,3 @@
 initialize-release
-initialize 
-
-	stack := Stack new
+initialize
+	stack := OrderedCollection new

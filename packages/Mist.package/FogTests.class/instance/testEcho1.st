@@ -1,8 +1,8 @@
 tests
-echo1
+testEcho1
 	"FogTests new echo1"
 
-	| program |
+	| program process stdin |
 	program := Fog
 		program:
 			{"(Fog breakpoint)."
@@ -34,4 +34,8 @@ echo1
 							(Fog fetchVariable: 'bufPtr').
 							(Fog intConstant: 1)	"size"})}).
 			(Fog sysCall: #exit_group args: {(Fog sysCall: #close args: {(Fog intConstant: 0)})})}.
-	^ self compile: program andWriteTo: #echo1
+
+	stdin := StandardFileStream forceNewFileNamed: 'testEcho1.stdin'.
+	stdin nextPutAll: 'a'; flush.
+	process := self compileAndRun: program stdin: stdin.
+	self assert: (process initialStdOut reset; upToEnd) = 'a'.

@@ -1,11 +1,11 @@
 tests
-consume1
+testConsume1
 	"Read one character from stdin.. First, take stdin's tty out of canonical mode with an ioctl. After character is read, restore canonical mode.
 	Exit code is the numerical value of the character read.."
 
 	"FogTests new consume1"
 
-	| program |
+	| program process stdin |
 	program := Fog
 		program:
 			{"(Fog breakpoint)."
@@ -71,4 +71,8 @@ consume1
 							(Fog intConstant: 16r5402).	"TCSETS"
 							(Fog fetchVariable: 'termiosPtr')}).
 					(Fog sysCall: #exit_group args: {(Fog fetchFrom: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 0))})})}.
-	^ self compile: program andWriteTo: #consume1
+
+	stdin := StandardFileStream forceNewFileNamed: 'testEcho1.stdin'.
+	stdin nextPutAll: 'f'; flush.
+	process := self compileAndRun: program stdin: stdin.
+	self assert: (process exitStatus \\ 255) = $f asInteger

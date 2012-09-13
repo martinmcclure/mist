@@ -1,8 +1,8 @@
 tests
-print7
+testPrint7
 	"FogTests new print7"
 
-	| program |
+	| program process |
 	program := Fog
 		program:
 			{"Fog breakpoint."
@@ -29,4 +29,5 @@ print7
 							(Fog fetchVariable: 'bufPtr').
 							(Fog intConstant: 1)	"size"})}).
 			(Fog sysCall: #exit_group args: {(Fog intConstant: 0)})}.
-	^ self compile: program andWriteTo: #print7
+	process := self compileAndRun: program.
+	self assert: (process initialStdOut reset; upToEnd) = '7'.
