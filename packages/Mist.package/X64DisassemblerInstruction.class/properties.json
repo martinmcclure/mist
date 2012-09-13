@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"RegisterNames" ],
+		 ],
 	"commentStamp" : "MartinMcClure 1/7/2012 12:27",
 	"instvars" : [
 		"bBit",
