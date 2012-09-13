@@ -1,8 +1,8 @@
 tests
-printH
+testPrintH
 	"FogTests new printH"
 
-	| program |
+	| program process |
 	program :=  Fog program:
 		{"Fog breakpoint."
 		Fog sysCall: #write
@@ -11,4 +11,5 @@ printH
 				 Fog intConstant: 1 "size"}.
 		Fog sysCall: #exit_group
 			args: {Fog intConstant: 0}}.
-	^ self compile: program andWriteTo: #printH
+	process := self compileAndRun: program.
+	self assert: (process initialStdOut reset; upToEnd) = 'H'.
