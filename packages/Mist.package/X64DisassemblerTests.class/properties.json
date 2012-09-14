@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "X64DisassemblerTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
