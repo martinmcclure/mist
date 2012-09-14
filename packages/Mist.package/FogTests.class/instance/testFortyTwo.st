@@ -1,11 +1,6 @@
 tests
 testFortyTwo
-	"FogTests new fortyTwo"
-
 	| program process |
-	program := Fog
-		program:
-			{"(Fog breakpoint)."
-			(Fog sysCall: #exit_group args: {(Fog intConstant: 42)})}.
+	program := FogTests fortyTwo.
 	process := self compileAndRun: program.
-	self assert: (process exitStatus \\ 255) = 42
+	self assert: process exitStatus \\ 255 = 42
