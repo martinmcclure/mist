@@ -1,10 +1,5 @@
 tests
 testPrintH
-	| program process |
+	| program |
 	program := FogTests printH.
-	process := self compileAndRun: program.
-	self
-		assert:
-			(process initialStdOut
-				reset;
-				upToEnd) = 'H'
+	self compileAndRun: program withInput: '' expectingOutput: 'H'
