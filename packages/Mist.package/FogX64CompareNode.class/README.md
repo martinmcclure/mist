@@ -1,0 +1,1 @@
+FogX64CompareNode -- two child nodes. The two are compared, leaving CPU flags set.

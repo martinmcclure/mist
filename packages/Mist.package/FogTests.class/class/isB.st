@@ -74,11 +74,11 @@ isB
 							(Fog compare: (Fog fetchFrom: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 0)) to: (Fog intConstant: 16r42))
 						if: #Z
 						then: (Fog store: (Fog intConstant: $T asInteger) to: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 1))
-						else: (Fog store: (Fog intConstant: $F asInteger) to: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 1)))}).
-			(Fog
-				sysCall: #write
-				args:
-					{(Fog intConstant: 1).	"fd"
-					(Fog intAdd: (Fog fetchVariable: 'bufPtr') to: (Fog intConstant: 1)).
-					(Fog intConstant: 1)	"size"}).
+						else: (Fog store: (Fog intConstant: $F asInteger) to: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 1))).
+					(Fog
+						sysCall: #write
+						args:
+							{(Fog intConstant: 1).	"fd"
+							(Fog intAdd: (Fog fetchVariable: 'bufPtr') to: (Fog intConstant: 1)).
+							(Fog intConstant: 1)	"size"})}).
 			(Fog sysCall: #exit_group args: {(Fog intConstant: 0)})}

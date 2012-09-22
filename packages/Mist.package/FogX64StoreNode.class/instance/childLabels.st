@@ -1,3 +1,3 @@
 portable-printing
 childLabels
-	^ super childLabels , 'value'
+	^ super childLabels , #('value')
