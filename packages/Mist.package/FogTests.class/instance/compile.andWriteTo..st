@@ -1,7 +1,6 @@
 support
 compile: program andWriteTo: filename
-	"Compile the given Fog program and write it to an ELF file with the given name.
-	Answer the disassembly of the compiled program."
+	"Compile the given Fog program and write it to an ELF file with the given name."
 
 	| elfFile seg nativeCode |
 	nativeCode := FogX64Compiler new compile: program.
@@ -10,5 +9,4 @@ compile: program andWriteTo: filename
 	seg := ElfSegment new.
 	seg bytes: nativeCode.
 	elfFile addSegment: seg.
-	elfFile writeToFileNamed: filename.	"self halt."
-	^ X64Disassembler disassemble: nativeCode startAddress: 16r00400078
+	elfFile writeToFileNamed: filename.	

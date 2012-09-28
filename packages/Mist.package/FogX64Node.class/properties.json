@@ -7,7 +7,6 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"beforeAssignments",
 		"compiler",
 		"declaredVariables",
 		"children",

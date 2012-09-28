@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 9/18/2012 21:22",
+	"commentStamp" : "MartinMcClure 9/23/2012 13:23",
 	"instvars" : [
 		 ],
 	"name" : "FogX64CompareNode",
 	"pools" : [
 		 ],
-	"super" : "FogX64Node",
+	"super" : "FogX64DestructiveOpNode",
 	"type" : "normal" }

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MartinMcClure 9/22/2012 16:08",
 	"instvars" : [
 		 ],
-	"name" : "FogX64AnyLocation",
+	"name" : "FogX64FetchByteNode",
 	"pools" : [
 		 ],
-	"super" : "FogX64Location",
+	"super" : "FogX64FetchNode",
 	"type" : "normal" }

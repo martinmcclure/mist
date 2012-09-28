@@ -1,3 +1,4 @@
 portable-printing
 label
-	^ 'Compare'
+
+	^'FetchByte'

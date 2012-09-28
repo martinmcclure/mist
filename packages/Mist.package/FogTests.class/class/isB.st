@@ -6,7 +6,7 @@ isB
 
 	^ Fog
 		program:
-			{(Fog breakpoint).
+			{"(Fog breakpoint)."
 			(Fog
 				variableScope:
 					{'termiosPtr'.
@@ -71,10 +71,14 @@ isB
 					We store either the T or the F at bufptr + 1, then output that unconditionally and exit."
 					(Fog
 						following:
-							(Fog compare: (Fog fetchFrom: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 0)) to: (Fog intConstant: 16r42))
+							(Fog
+								compare: (Fog fetchByteFrom: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 0))
+								to: (Fog intConstant: 16r42))
 						if: #Z
-						then: (Fog store: (Fog intConstant: $T asInteger) to: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 1))
-						else: (Fog store: (Fog intConstant: $F asInteger) to: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 1))).
+						then:
+							(Fog storeByte: (Fog intConstant: $T asInteger) to: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 1))
+						else:
+							(Fog storeByte: (Fog intConstant: $F asInteger) to: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 1))).
 					(Fog
 						sysCall: #write
 						args:

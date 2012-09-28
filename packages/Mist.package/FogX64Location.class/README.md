@@ -1,0 +1,1 @@
+A FogX64Location specified where a variable is to be put. This could be a register, a memory location on the stack, a specification that a dummy variable does not need to go anywhere.

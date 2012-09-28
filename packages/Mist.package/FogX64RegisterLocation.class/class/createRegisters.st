@@ -1,6 +1,6 @@
 initialize-release
 createRegisters
-	"Make all registers in the x96_64 architecture and store in a dictionary by name.
+	"Make all registers in the x86_64 architecture and store in a dictionary by name.
 	For registers, the number is the number that goes in the REX prefix and mod/rm bytes
 	of most instructions that reference the register"
 

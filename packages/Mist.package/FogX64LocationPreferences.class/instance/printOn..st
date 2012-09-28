@@ -1,7 +1,10 @@
 printing
 printOn: aStream
-
-	aStream nextPutAll:   'LocPrefs{'.
-	isStackFrameLocationOK printOn: aStream.
-	acceptableRegisters printOn: aStream.  
-	aStream nextPutAll: '}'  
+	aStream
+		nextPutAll: 'LocPrefs{';
+		nextPutAll:
+				(isStackFrameLocationOK
+						ifTrue: [ 'Stack ' ]
+						ifFalse: [ 'No Stack ' ]).
+	acceptableRegisters printOn: aStream.
+	aStream nextPutAll: '}'

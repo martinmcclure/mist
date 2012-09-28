@@ -4,10 +4,11 @@
 		"numberOfChildren" : "MartinMcClure 5/17/2011 22:01" },
 	"instance" : {
 		"addOwnClobberedTo:" : "MartinMcClure 11/4/2011 10:35",
-		"assignOutputVariableAvoiding:" : "MartinMcClure 8/25/2011 09:17",
+		"assignOutputVariableAvoiding:" : "MartinMcClure 9/27/2012 22:30",
 		"destLoc" : "MartinMcClure 8/25/2011 09:18",
 		"destination" : "MartinMcClure 1/8/2011 18:09",
 		"destination:" : "MartinMcClure 1/8/2011 18:10",
+		"hasSideEffects" : "MartinMcClure 9/23/2012 13:25",
 		"locationPreferencesForChildNum:" : "MartinMcClure 7/17/2011 12:18",
 		"source" : "MartinMcClure 1/8/2011 18:09",
 		"source:" : "MartinMcClure 1/8/2011 18:10",

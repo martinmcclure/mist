@@ -8,11 +8,12 @@ locationAvoiding: clobbered compiler: compiler
 
 	isDummy
 		ifTrue: [ ^ FogX64Location noLocation ].
-	{(parentAcceptable intersection: childAcceptable).
+	{(self bothAcceptable).
 	childAcceptable.
 	parentAcceptable}
-		do: [ :prefs | | loc |
+		do: [ :prefs | 
+			| loc |
 			loc := compiler locationAcceptableTo: prefs avoiding: clobbered.
-			(loc isAssignable)
+			loc isAssignable
 				ifTrue: [ ^ loc ] ].
 	^ compiler locationAvoiding: clobbered
