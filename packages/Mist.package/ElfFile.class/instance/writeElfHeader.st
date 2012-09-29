@@ -5,7 +5,7 @@ writeElfHeader
 	write2: 2; "type executable"
 	write2: 62; "machine: x86_64"
 	write4: 1;  "current version"
-	write8: entryAddress + 64 + 56;
+	write8: entryAddress; "the address to start executing code"
 	write8: 64; "program header table immediately follows this header"
 	write8: 0; "section header table offset, none in this case"
 	write4: 0; "processor-specific flags. I don't know what's supposed to be here."

@@ -10,7 +10,8 @@
 		"codeStream",
 		"stackTempsUsed",
 		"scopeStack",
-		"stackTemps" ],
+		"stackTemps",
+		"startAddress" ],
 	"name" : "FogX64Compiler",
 	"pools" : [
 		 ],

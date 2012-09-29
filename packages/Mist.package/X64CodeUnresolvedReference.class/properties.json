@@ -1,0 +1,16 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 9/28/2012 22:28",
+	"instvars" : [
+		"codeObject",
+		"referenceOffset",
+		"referenceAddress" ],
+	"name" : "X64CodeUnresolvedReference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

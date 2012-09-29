@@ -4,7 +4,6 @@
 		"singleton" : "MartinMcClure 1/9/2012 21:25" },
 	"instance" : {
 		"actionFor:repePrefix:repnePrefix:addrSizePrefix:" : "MartinMcClure 2/13/2012 17:35",
-		"from:to:by:do:" : "MartinMcClure 2/13/2012 17:28",
 		"initialize" : "MartinMcClure 9/3/2012 11:57",
 		"initialize8LineMovs" : "MartinMcClure 9/3/2012 12:01",
 		"initializeBLineMovs" : "MartinMcClure 9/9/2012 22:51",

@@ -1,0 +1,3 @@
+public
+resolveTo: addressInteger
+	self subclassResponsibility

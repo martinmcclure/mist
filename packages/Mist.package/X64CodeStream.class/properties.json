@@ -3,11 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"ConditionCodes" ],
+	"commentStamp" : "MartinMcClure 9/28/2012 21:56",
 	"instvars" : [
 		"compiler",
-		"output" ],
+		"output",
+		"startAddress",
+		"labels" ],
 	"name" : "X64CodeStream",
 	"pools" : [
 		 ],
