@@ -1,6 +1,7 @@
 instructions
 movByteFromAddressIn: baseReg plusIndexIn: indexReg toRegister: destReg
-	"A mov instruction to fetch 8 bits of memory from the address in baseReg, indexed by indexReg, and put those 64 bits in destReg. All three arguments must be register locations."
+	"A mov instruction to fetch 8 bits of memory from the address in baseReg, byte-indexed by indexReg, and put those 64 bits in destReg. 
+	All three arguments must be register locations."
 
 	| rex modRm sib |
 	(destReg isRegister and: [ baseReg isRegister and: [ indexReg isRegister ] ])
@@ -13,5 +14,5 @@ movByteFromAddressIn: baseReg plusIndexIn: indexReg toRegister: destReg
 	output nextPut: 16r8A.	"opcode"
 	modRm := destReg lowNumber * 8 + 4.
 	output nextPut: modRm.
-	sib := 16rC0 + (indexReg lowNumber * 8) + baseReg lowNumber.	"scale is 3 for 64-bit indexing"
+	sib := indexReg lowNumber * 8 + baseReg lowNumber.	"scale is 0 for 8-bit indexing"
 	output nextPut: sib

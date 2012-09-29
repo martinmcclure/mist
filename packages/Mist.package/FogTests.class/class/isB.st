@@ -6,7 +6,7 @@ isB
 
 	^ Fog
 		program:
-			{(Fog breakpoint).
+			{"(Fog breakpoint)."
 			(Fog
 				variableScope:
 					{'termiosPtr'.

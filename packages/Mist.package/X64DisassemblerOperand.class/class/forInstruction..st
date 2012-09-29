@@ -5,5 +5,6 @@ forInstruction: instruction
 	inst instruction: instruction.
 	inst
 		informModRM;
+		informDisplacement;
 		informImmediate.
 	^ inst

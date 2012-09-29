@@ -12,7 +12,6 @@ initialize
 		atAllFrom: 16r28 to: 16r2D putMnemonic: 'sub';
 		atAllFrom: 16r30 to: 16r35 putMnemonic: 'xor';
 		atAllFrom: 16r38 to: 16r3D putMnemonic: 'cmp'.
-		
 	self
 		atAllFrom: 16r00
 			to: 16r38
@@ -42,4 +41,7 @@ initialize
 		initializeRexPrefixes;
 		initialize8LineMovs;
 		initializeBLineMovs;
-		initializeCLine
+		initializeCLine.
+	self
+		at: 16rE9 putMnemonic: 'jmp';
+		at: 16rE9 putOperandTypes: #(#Jz)

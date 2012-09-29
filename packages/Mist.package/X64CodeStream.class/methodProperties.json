@@ -18,7 +18,7 @@
 		"jmpTo:" : "MartinMcClure 9/28/2012 22:45",
 		"label:" : "MartinMcClure 9/28/2012 22:36",
 		"labelAt:" : "MartinMcClure 9/28/2012 22:35",
-		"movByteFromAddressIn:plusIndexIn:toRegister:" : "MartinMcClure 9/22/2012 17:11",
+		"movByteFromAddressIn:plusIndexIn:toRegister:" : "MartinMcClure 9/29/2012 11:22",
 		"movByteFromRegister:toAddressIn:plusIndexIn:" : "MartinMcClure 11/5/2011 08:46",
 		"movFrom:to:" : "MartinMcClure 11/6/2011 16:19",
 		"movFromAddressIn:plusIndexIn:toRegister:" : "MartinMcClure 11/6/2011 16:32",

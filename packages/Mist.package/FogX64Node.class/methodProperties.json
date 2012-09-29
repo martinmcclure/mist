@@ -24,7 +24,7 @@
 		"variableScope:steps:" : "MartinMcClure 12/24/2010 14:54" },
 	"instance" : {
 		"addChild:" : "MartinMcClure 11/15/2010 21:48",
-		"addOwnClobberedTo:" : "MartinMcClure 11/4/2011 10:38",
+		"addOwnClobberedTo:" : "MartinMcClure 9/29/2012 11:37",
 		"assignDeclaredVariablesAvoiding:" : "MartinMcClure 12/25/2010 19:16",
 		"assignInputVariableNumber:" : "MartinMcClure 8/26/2011 06:25",
 		"assignOutputVariableAvoiding:" : "MartinMcClure 8/26/2011 00:24",
