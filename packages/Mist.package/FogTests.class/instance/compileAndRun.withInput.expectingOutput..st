@@ -1,6 +1,6 @@
 running
 compileAndRun: program withInput: providedString expectingOutput: expectedString
-	| filename stdin process |
+	| stdin process |
 	filename := thisContext sender selector asString.
 	stdin := StandardFileStream forceNewFileNamed: filename , '.stdin'.
 	stdin
@@ -13,5 +13,4 @@ compileAndRun: program withInput: providedString expectingOutput: expectedString
 				reset;
 				upToEnd)
 		equals: expectedString.
-	self assert: process exitStatus \\ 256 equals: 0.
-	self cleanupForExecutable: filename
+	self assert: process exitStatus \\ 256 equals: 0

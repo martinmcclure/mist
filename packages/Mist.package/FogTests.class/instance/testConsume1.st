@@ -4,8 +4,9 @@ testConsume1
 	Exit code is the numerical value of the character read.."
 
 	| program process stdin |
+	filename := 'testConsume1'.
 	program := FogTests consume1.
-	stdin := StandardFileStream forceNewFileNamed: 'testEcho1.stdin'.
+	stdin := StandardFileStream forceNewFileNamed: filename , '.stdin'.
 	stdin
 		nextPutAll: 'f';
 		flush.

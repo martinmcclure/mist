@@ -1,7 +1,7 @@
 support
-cleanupForExecutable: filename
+cleanupExecutable
 	FileDirectory default
 		deleteFileNamed: filename;
 		deleteFileNamed: filename , '.stdin';
 		deleteFileNamed: filename , '.stdout';
-		deleteFileNamed: filename , '.stdErr'
+		deleteFileNamed: filename , '.stderr'

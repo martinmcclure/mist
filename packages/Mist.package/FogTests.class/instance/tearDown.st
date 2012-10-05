@@ -1,5 +1,4 @@
-running
+support
 tearDown
-
-	(FileDirectory default fileNamesMatching: '*.stdin;*.stdout;*.stderr') do: [:fn |
-		FileDirectory default deleteFileNamed: fn].
+	super tearDown.
+	self cleanupExecutable
