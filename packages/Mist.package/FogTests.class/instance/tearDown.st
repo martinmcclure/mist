@@ -1,4 +1,4 @@
 support
 tearDown
-	super tearDown.
-	self cleanupExecutable
+	self cleanupExecutable.
+	super tearDown

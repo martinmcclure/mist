@@ -1,12 +1,11 @@
 running
 compileAndRun: program withInput: providedString expectingOutput: expectedString
 	| stdin process |
-	filename := thisContext sender selector asString.
-	stdin := StandardFileStream forceNewFileNamed: filename , '.stdin'.
+	stdin := StandardFileStream forceNewFileNamed: testSelector , '.stdin'.
 	stdin
 		nextPutAll: providedString;
 		flush.
-	process := self compile: program andRun: filename stdin: stdin.
+	process := self compile: program andRun: testSelector stdin: stdin.
 	self
 		assert:
 			(process initialStdOut

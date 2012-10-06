@@ -1,7 +1,7 @@
 support
 cleanupExecutable
 	FileDirectory default
-		deleteFileNamed: filename;
-		deleteFileNamed: filename , '.stdin';
-		deleteFileNamed: filename , '.stdout';
-		deleteFileNamed: filename , '.stderr'
+		deleteFileNamed: testSelector;
+		deleteFileNamed: testSelector , '.stdin';
+		deleteFileNamed: testSelector , '.stdout';
+		deleteFileNamed: testSelector , '.stderr'
