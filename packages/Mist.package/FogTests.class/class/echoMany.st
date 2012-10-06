@@ -73,7 +73,7 @@ echoMany
 											(Fog
 												sysCall: #write
 												args:
-													{(Fog intConstant: 0).	"fd"
+													{(Fog intConstant: 1).	"fd"
 													(Fog fetchVariable: 'bufPtr').
 													(Fog intConstant: 1)	"count"}))})
 						to: (Fog fetchVariable: 'bufPtr')

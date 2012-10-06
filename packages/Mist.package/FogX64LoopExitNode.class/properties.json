@@ -1,0 +1,14 @@
+{
+	"category" : "Mist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 10/5/2012 22:05",
+	"instvars" : [
+		"loopLabel" ],
+	"name" : "FogX64LoopExitNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64Node",
+	"type" : "normal" }
