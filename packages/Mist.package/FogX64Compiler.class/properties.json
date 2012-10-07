@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "MartinMcClure 10/6/2012 14:47",
 	"instvars" : [
 		"assignableRegisters",
 		"codeStream",
+		"loopsInScope",
 		"stackTempsUsed",
 		"scopeStack",
 		"stackTemps",

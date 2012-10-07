@@ -1,6 +1,9 @@
 {
 	"class" : {
-		"loopLabel:child:" : "MartinMcClure 10/5/2012 21:54" },
+		"loopLabel:child:" : "MartinMcClure 10/5/2012 21:54",
+		"numberOfChildren" : "MartinMcClure 10/6/2012 14:04" },
 	"instance" : {
+		"emitOpTo:" : "MartinMcClure 10/6/2012 14:58",
 		"label" : "MartinMcClure 10/5/2012 22:22",
-		"loopLabel:child:" : "MartinMcClure 10/5/2012 22:07" } }
+		"loopLabel:child:" : "MartinMcClure 10/5/2012 22:07",
+		"pass1PreOrder" : "MartinMcClure 10/6/2012 14:57" } }

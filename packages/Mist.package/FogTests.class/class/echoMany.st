@@ -68,7 +68,7 @@ echoMany
 												compare: (Fog fetchByteFrom: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 0))
 												to: (Fog intConstant: 16r1B))
 										if: #Z
-										then: (Fog exitLoop: loopLabel with: (Fog intConstant: 16r0A))
+										then: (Fog exitLoop: loopLabel with: (Fog intConstant: 16r0A)) "No, this isn't the easiest way to get a newline output -- it's this way to exercise the 'return a value from a loop' thing."
 										else:
 											(Fog
 												sysCall: #write
@@ -78,6 +78,12 @@ echoMany
 													(Fog intConstant: 1)	"count"}))})
 						to: (Fog fetchVariable: 'bufPtr')
 						atIndex: (Fog intConstant: 0)).
+					(Fog
+						sysCall: #write
+						args:
+							{(Fog intConstant: 1).	"fd"
+							(Fog fetchVariable: 'bufPtr'). "Should contain a newline at this point."
+							(Fog intConstant: 1)	"count"}).
 					(Fog
 						store:
 							(Fog
@@ -91,4 +97,4 @@ echoMany
 							{(Fog intConstant: 0).	"stdin"
 							(Fog intConstant: 16r5402).	"TCSETS"
 							(Fog fetchVariable: 'termiosPtr')})}).
-			(Fog sysCall: #exit_group args: {(Fog intConstant: 0)})}	
+			(Fog sysCall: #exit_group args: {(Fog intConstant: 0)})}

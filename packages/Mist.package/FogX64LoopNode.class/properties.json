@@ -4,9 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MartinMcClure 10/6/2012 14:17",
 	"instvars" : [
-		"loopLabel" ],
+		"loopLabel",
+		"loopHeadLabel",
+		"loopTailLabel" ],
 	"name" : "FogX64LoopNode",
 	"pools" : [
 		 ],

@@ -1,6 +1,12 @@
 {
 	"class" : {
-		"loopLabel:children:" : "MartinMcClure 10/5/2012 22:14" },
+		"loopLabel:children:" : "MartinMcClure 10/5/2012 22:14",
+		"numberOfChildren" : "MartinMcClure 10/6/2012 14:05" },
 	"instance" : {
+		"emitOpTo:" : "MartinMcClure 10/6/2012 15:00",
 		"label" : "MartinMcClure 10/5/2012 22:20",
-		"loopLabel:children:" : "MartinMcClure 10/5/2012 22:15" } }
+		"loopLabel:children:" : "MartinMcClure 10/6/2012 14:18",
+		"loopTailLabel" : "MartinMcClure 10/6/2012 14:37",
+		"pass1PostOrderSiblingClobbered:childClobbered:" : "MartinMcClure 10/6/2012 14:54",
+		"pass1PreOrder" : "MartinMcClure 10/6/2012 14:52",
+		"pass2CompileOn:" : "MartinMcClure 10/6/2012 15:16" } }

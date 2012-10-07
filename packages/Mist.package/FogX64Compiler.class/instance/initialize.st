@@ -4,6 +4,7 @@ initialize
 	Also not assigned: rsp (stack pointer) rbp (base pointer)"
 
 	| l |
+	loopsInScope := IdentityDictionary new.
 	stackTempsUsed := 0.	"How far to move the stack pointer on method entry"
 	stackTemps := OrderedCollection new.
 	scopeStack := FogScopeStack new.	"registers in assignment order"
