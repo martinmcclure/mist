@@ -6,4 +6,5 @@ assignOutputVariableAvoiding: siblingClobbered
 	| allClobbered |
 	allClobbered := siblingClobbered copy.
 	children do: [ :childVar | allClobbered add: childVar consumptionLocation ].
-	super assignOutputVariableAvoiding: allClobbered
+	super assignOutputVariableAvoiding: allClobbered.
+	siblingClobbered add: parent restingLocation
