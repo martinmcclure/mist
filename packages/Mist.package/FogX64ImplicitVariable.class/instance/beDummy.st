@@ -1,3 +1,0 @@
-accessing
-beDummy
-	isDummy := true

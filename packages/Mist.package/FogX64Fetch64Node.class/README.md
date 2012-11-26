@@ -1,1 +1,0 @@
-FogX64Fetch64Node fetches a 64-bit word from memory at a computed address plus a fixed offset. Offset is 0-based and in units of 64-bit words.

@@ -1,1 +1,0 @@
-FogX64LeafNode subclasses are nodes that cannot have any child nodes.

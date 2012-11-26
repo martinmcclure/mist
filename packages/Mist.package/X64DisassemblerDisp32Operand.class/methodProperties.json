@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"dispByte:" : "MartinMcClure 9/29/2012 10:52",
-		"informDisplacement" : "MartinMcClure 9/29/2012 10:57",
-		"informModRM" : "MartinMcClure 9/29/2012 10:48",
-		"initialize" : "MartinMcClure 9/29/2012 10:35",
-		"printOn:" : "MartinMcClure 9/29/2012 10:44" } }

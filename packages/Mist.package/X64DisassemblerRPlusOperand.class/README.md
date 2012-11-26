@@ -1,1 +1,0 @@
-X64DisassemblerRPlusOperand -- The register operand of any instruction listed in Vol. 3 as being +rb, +rw, +rd, or +rq. The low-order three bits of the one-byte opcode, extended by REX.B, form the register number.

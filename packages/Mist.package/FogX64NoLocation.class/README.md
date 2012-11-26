@@ -1,1 +1,0 @@
-A FogX64NoLocation is the location of a dummy variable. Since a dummy variable is not ever used, it does not actually need to be located anywhere.

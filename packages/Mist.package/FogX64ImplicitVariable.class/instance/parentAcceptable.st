@@ -1,3 +1,0 @@
-accessing
-parentAcceptable
-	^ parentAcceptable

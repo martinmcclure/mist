@@ -1,1 +1,0 @@
-FogX64BreakpointNode puts a breakpoint into a Fog program, so the program state can be examined by GDB. Only expected to be used in manual debugging of early stages of Mist implementation.

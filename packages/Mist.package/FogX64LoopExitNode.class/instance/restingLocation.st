@@ -1,3 +1,0 @@
-accessing
-restingLocation
-	^ parent restingLocation

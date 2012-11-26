@@ -1,1 +1,0 @@
-A FogX64VariableStoreNode has one child. It stores the value computed by its child, stores it into its DeclaredVariable (always a 64-bit word), then passes that value to its parent.

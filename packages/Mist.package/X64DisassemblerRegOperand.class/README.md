@@ -1,1 +1,0 @@
-X64DisassemblerRegOperand is a register operand whose register number is specified by the reg field of the ModRM byte, extended by REX.R.
