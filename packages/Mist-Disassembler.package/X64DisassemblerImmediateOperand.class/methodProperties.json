@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"immediateByte:" : "MartinMcClure 9/9/2012 23:58",
+		"informImmediate" : "MartinMcClure 9/7/2012 09:19",
+		"informModRM" : "MartinMcClure 9/9/2012 22:55",
+		"initialize" : "MartinMcClure 9/9/2012 23:55",
+		"printOn:" : "MartinMcClure 9/10/2012 00:00" } }

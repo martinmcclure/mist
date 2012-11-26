@@ -1,0 +1,4 @@
+portable-printing
+label
+
+	^'FetchByte'

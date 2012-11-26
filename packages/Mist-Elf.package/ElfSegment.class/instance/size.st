@@ -1,0 +1,4 @@
+accessing
+size
+
+	^bytes size

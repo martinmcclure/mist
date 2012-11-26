@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addLoop:labeled:" : "MartinMcClure 10/6/2012 14:49",
+		"allocateStackTemp" : "MartinMcClure 11/5/2011 14:22",
+		"compile:" : "MartinMcClure 8/25/2011 05:32",
+		"initialize" : "MartinMcClure 10/6/2012 14:48",
+		"locationAcceptableTo:avoiding:" : "MartinMcClure 6/26/2011 19:47",
+		"locationAvoiding:" : "MartinMcClure 6/18/2011 08:22",
+		"locationsDo:" : "MartinMcClure 11/3/2011 14:51",
+		"loopLabeled:" : "MartinMcClure 10/6/2012 14:59",
+		"popScope" : "MartinMcClure 12/25/2010 19:10",
+		"pushScope:" : "MartinMcClure 12/25/2010 10:16",
+		"registersDo:" : "MartinMcClure 6/18/2011 08:31",
+		"removeLoopLabeled:" : "MartinMcClure 10/6/2012 14:55",
+		"startAddress" : "MartinMcClure 9/28/2012 21:08",
+		"startAddress:" : "MartinMcClure 9/28/2012 21:09",
+		"usingLocation:" : "MartinMcClure 12/30/2010 18:55",
+		"variableNamed:" : "MartinMcClure 12/30/2010 14:38" } }

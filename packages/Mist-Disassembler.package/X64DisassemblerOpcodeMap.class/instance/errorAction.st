@@ -1,0 +1,3 @@
+private
+errorAction
+	^ X64DisassemblerErrorAction singleton

@@ -1,0 +1,3 @@
+portable-printing
+label
+	self subclassResponsibility

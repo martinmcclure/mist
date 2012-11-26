@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "MartinMcClure 9/7/2012 09:41",
+		"mnemonic:" : "MartinMcClure 2/13/2012 17:17",
+		"operandTypes:" : "MartinMcClure 2/13/2012 17:32",
+		"performOn:" : "MartinMcClure 9/7/2012 06:04",
+		"printOn:" : "MartinMcClure 9/3/2012 03:29" } }

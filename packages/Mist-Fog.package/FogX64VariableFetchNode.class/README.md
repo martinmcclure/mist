@@ -1,0 +1,1 @@
+A FogX64VariableFetchNode fetches the current value of a DeclaredVariable, and passes that value to its parent. It has no children.
