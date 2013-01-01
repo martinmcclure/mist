@@ -5,9 +5,7 @@
 Metacello new
   baseline: 'Mist';
   repository: 'filetree://', MetacelloBuilderTravisCI gitPath, '/mist/packages';
-  load.
-
-(Delay forSeconds: 10) wait.
+  load: 'Tests'.
 
 "Run the tests"
 TravisCIHarness
