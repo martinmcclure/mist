@@ -14,4 +14,9 @@ baseline: spec
 			spec
 				group: 'default' with: #('Mist-Elf' 'Mist-Assembler' 'Mist-Disassembler' 'Mist-Fog');
 				group: 'Tests' with: #('Mist-FogTests' 'Mist-DisassemblerTests').
-			spec project: 'AsmJit' with: [ spec className: 'BaselineOfAsmJit' ] ]
+			spec
+				project: 'AsmJit'
+				with: [ 
+					spec
+						className: 'BaselineOfAsmJit';
+						repository: 'github://martinmcclure/AsmJit:issue4-BaselineOfAsmJit/packages' ] ]
