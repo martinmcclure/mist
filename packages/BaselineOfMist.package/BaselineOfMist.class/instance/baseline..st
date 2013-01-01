@@ -19,4 +19,4 @@ baseline: spec
 				with: [ 
 					spec
 						className: 'BaselineOfAsmJit';
-						repository: 'github://martinmcclure/AsmJit:issue4-BaselineOfAsmJit/packages' ] ]
+						repository: 'github://martinmcclure/AsmJit:master/packages' ] ]
