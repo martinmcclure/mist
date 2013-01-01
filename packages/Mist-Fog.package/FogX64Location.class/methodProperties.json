@@ -9,4 +9,5 @@
 		"isIndirectRegister" : "MartinMcClure 12/31/2010 10:36",
 		"isMemory" : "MartinMcClure 12/30/2010 18:57",
 		"isNoLocation" : "MartinMcClure 11/7/2010 01:15",
-		"isRegister" : "MartinMcClure 6/18/2011 10:09" } }
+		"isRegister" : "MartinMcClure 6/18/2011 10:09",
+		"printAsOperandOn:" : "MartinMcClure 12/31/2012 18:07" } }

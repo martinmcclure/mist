@@ -4,7 +4,7 @@
 	"instance" : {
 		"addLoop:labeled:" : "MartinMcClure 10/6/2012 14:49",
 		"allocateStackTemp" : "MartinMcClure 11/5/2011 14:22",
-		"compile:" : "MartinMcClure 8/25/2011 05:32",
+		"compile:" : "MartinMcClure 12/31/2012 18:02",
 		"initialize" : "MartinMcClure 10/6/2012 14:48",
 		"locationAcceptableTo:avoiding:" : "MartinMcClure 6/26/2011 19:47",
 		"locationAvoiding:" : "MartinMcClure 6/18/2011 08:22",

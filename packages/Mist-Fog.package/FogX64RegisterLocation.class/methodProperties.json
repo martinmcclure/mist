@@ -5,6 +5,7 @@
 		"initialize" : "MartinMcClure 11/3/2011 10:27",
 		"r:" : "MartinMcClure 11/3/2011 10:24" },
 	"instance" : {
+		"asAJOperand" : "MartinMcClure 12/31/2012 18:14",
 		"highNumber" : "MartinMcClure 11/1/2011 03:45",
 		"isIndirectRegister" : "MartinMcClure 11/3/2011 10:10",
 		"isRegister" : "MartinMcClure 11/3/2011 10:30",

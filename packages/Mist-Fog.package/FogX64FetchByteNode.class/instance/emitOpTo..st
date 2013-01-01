@@ -7,5 +7,5 @@ emitOpTo: codeStream
 	baseLoc := self base consumptionLocation.
 	indexLoc := self index consumptionLocation.
 	destLoc := parent generationLocation.
-	codeStream movIntConstant: 0 to: destLoc. "Better to xor with self here."
+	codeStream mov: 0 to: destLoc.	"Better to xor with self here."
 	codeStream movByteFromAddressIn: baseLoc plusIndexIn: indexLoc toRegister: destLoc
