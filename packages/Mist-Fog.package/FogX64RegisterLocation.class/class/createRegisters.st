@@ -6,16 +6,18 @@ createRegisters
 
 	| specs |
 	Registers := IdentityDictionary new.
-	specs := #(#(#rax 0) #(#rcx 1) #(#rdx 2) #(#rbx 3) #(#rsp 4) #(#rbp 5) #(#rsi 6) #(#rdi 7) #(#r8 8) #(#r9 9) #(#r10 10) #(#r11 11) #(#r12 12) #(#r13 13) #(#r14 14) #(#r15 15)).
+	specs := #(#(#rax #AL 0) #(#rcx #CL 1) #(#rdx #DL 2) #(#rbx #BL 3) #(#rsp #SPL 4) #(#rbp #BPL 5) #(#rsi #SIL 6) #(#rdi #DIL 7) #(#r8 #R8B 8) #(#r9 #R9B 9) #(#r10 #R10B 10) #(#r11 #R11B 11) #(#r12 #R12B 12) #(#r13 #R13B 13) #(#r14 #R14B 14) #(#r15 #R15B 15)).
 	specs
 		do: [ :spec | 
-			| regName number |
-			regName := spec at: 1.
-			number := spec at: 2.
+			| reg64Name reg8Name number |
+			reg64Name := spec at: 1.
+			reg8Name := spec at: 2.
+			number := spec at: 3.
 			Registers
-				at: regName
+				at: reg64Name
 				put:
-					((self new)
-						name: regName;
+					(self new
+						name: reg64Name;
+						byteName: reg8Name;
 						number: number;
 						yourself) ]

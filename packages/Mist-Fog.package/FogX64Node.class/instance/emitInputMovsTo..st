@@ -6,4 +6,4 @@ emitInputMovsTo: codeStream
 		| child assignedLoc |
 		child := children at: i.
 		child restingLocation = child consumptionLocation
-			ifFalse: [ codeStream movFrom: child restingLocation to: child consumptionLocation ] ]
+			ifFalse: [ codeStream mov: child restingLocation to: child consumptionLocation ] ]
