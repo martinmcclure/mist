@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "MartinMcClure 1/6/2013 21:48",
 	"instvars" : [
 		"value" ],
 	"name" : "FogX64IntConstantNode",
