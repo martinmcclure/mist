@@ -3,4 +3,4 @@ emitOpTo: codeStream
 	| source dest |
 	source := self sourceLoc asOperandFor: codeStream.
 	dest := self destLoc asOperandFor: codeStream.
-	codeStream cmp: source with: dest
+	codeStream cmp: dest with: source

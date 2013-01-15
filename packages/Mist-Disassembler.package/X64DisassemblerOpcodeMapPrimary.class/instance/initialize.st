@@ -39,9 +39,12 @@ initialize
 			putOperandTypes: #(#rAX #Iz).
 	self
 		initializeRexPrefixes;
+		initialize7LineJccs;
 		initialize8LineMovs;
 		initializeBLineMovs;
 		initializeCLine.
 	self
 		at: 16rE9 putMnemonic: 'jmp';
-		at: 16rE9 putOperandTypes: #(#Jz)
+		at: 16rE9 putOperandTypes: #(#Jz);
+		at: 16rEB putMnemonic: 'jmp';
+		at: 16rEB putOperandTypes: #(#Jb)

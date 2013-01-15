@@ -8,14 +8,15 @@ pass2CompileOn: codeStream
 	elseLabel  	<child3>
 	finalLabel 	"
 
-	| elseLabel finalLabel |
-	elseLabel := 'elseLabel' copy.
-	finalLabel := 'finalLabel' copy.
+	| elseLabel finalLabel opSymbol |
+	elseLabel := AJJumpLabel new name: 'elseLabel' copy.
+	finalLabel := AJJumpLabel new name: 'finalLabel' copy.
+	opSymbol := ('jn' , flagSymbol asLowercase , ':') asSymbol.
 	(children at: 1) child pass2CompileOn: codeStream.
-	codeStream jmpIfNot: flagSymbol to: elseLabel.
+	codeStream perform: opSymbol with: elseLabel.
 	(children at: 2) child pass2CompileOn: codeStream.
 	codeStream
-		jmpTo: finalLabel;
+		jmp: finalLabel;
 		label: elseLabel.
 	(children at: 3) child pass2CompileOn: codeStream.
 	codeStream label: finalLabel
