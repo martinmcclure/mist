@@ -6,7 +6,6 @@ baseline: spec
 		do: [ 
 			spec
 				package: 'Mist-Elf';
-				package: 'Mist-Assembler';
 				package: 'Mist-Disassembler';
 				package: 'Mist-DisassemblerTests' with: [ spec requires: #('Mist-Disassembler' 'Mist-FogTests') ];
 				package: 'Mist-Fog' with: [ spec requires: #('Mist-Assembler' 'AsmJit') ];
