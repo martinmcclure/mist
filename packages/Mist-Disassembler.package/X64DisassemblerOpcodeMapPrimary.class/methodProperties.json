@@ -4,9 +4,10 @@
 		"singleton" : "MartinMcClure 1/9/2012 21:25" },
 	"instance" : {
 		"actionFor:repePrefix:repnePrefix:addrSizePrefix:" : "MartinMcClure 2/13/2012 17:35",
-		"initialize" : "MartinMcClure 9/29/2012 11:02",
+		"initialize" : "MartinMcClure 1/12/2013 19:14",
+		"initialize7LineJccs" : "MartinMcClure 1/12/2013 18:53",
 		"initialize8LineMovs" : "MartinMcClure 9/3/2012 12:01",
 		"initializeBLineMovs" : "MartinMcClure 9/9/2012 22:51",
-		"initializeCLine" : "MartinMcClure 9/2/2012 06:20",
+		"initializeCLine" : "MartinMcClure 12/31/2012 19:23",
 		"initializeEscapeOpcodes" : "MartinMcClure 9/2/2012 13:22",
 		"initializeRexPrefixes" : "MartinMcClure 2/13/2012 18:04" } }

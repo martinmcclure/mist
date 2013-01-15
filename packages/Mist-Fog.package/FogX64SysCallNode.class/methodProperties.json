@@ -8,8 +8,7 @@
 	"instance" : {
 		"addOwnClobberedTo:" : "MartinMcClure 11/4/2011 10:32",
 		"children:" : "MartinMcClure 11/15/2010 22:08",
-		"emitOpTo:" : "MartinMcClure 11/21/2010 13:38",
+		"emitOpTo:" : "MartinMcClure 1/8/2013 20:42",
 		"hasSideEffects" : "MartinMcClure 10/28/2010 21:50",
 		"label" : "MartinMcClure 1/8/2011 15:58",
-		"number:" : "MartinMcClure 9/16/2010 06:57",
-		"outputIsConstrained" : "MartinMcClure 10/17/2010 22:33" } }
+		"number:" : "MartinMcClure 9/16/2010 06:57" } }

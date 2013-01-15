@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 9/29/2012 10:34",
+	"commentStamp" : "MartinMcClure 1/12/2013 18:59",
 	"instvars" : [
-		"bytesSoFar",
-		"displacementValue" ],
+		 ],
 	"name" : "X64DisassemblerDisp32Operand",
 	"pools" : [
 		 ],
-	"super" : "X64DisassemblerOperand",
+	"super" : "X64DisassemblerDispOperand",
 	"type" : "normal" }

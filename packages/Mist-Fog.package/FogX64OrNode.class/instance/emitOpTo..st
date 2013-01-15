@@ -1,3 +1,3 @@
 x64-compiling-pass2
 emitOpTo: codeStream
-	codeStream or: self sourceLoc to: self destLoc
+	codeStream or: (self destLoc asOperandFor: codeStream) with: (self sourceLoc asOperandFor: codeStream)

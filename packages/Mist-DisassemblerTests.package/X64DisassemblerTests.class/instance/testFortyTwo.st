@@ -6,8 +6,8 @@ testFortyTwo
 	self
 		assert: disassembly
 		equals:
-			'000000400078: 48 BD 00 00 50 00 00 00 00 00                mov     rbp,0x500000
-000000400082: 48 BF 2A 00 00 00 00 00 00 00                mov     rdi,0x2A
-00000040008C: 48 B8 E7 00 00 00 00 00 00 00                mov     rax,0xE7
-000000400096: 0F 05                                        syscall 
+			'000000400078: 48 C7 C5 00 00 50 00                         mov     rbp,0x500000
+00000040007F: 48 C7 C7 2A 00 00 00                         mov     rdi,0x2A
+000000400086: 48 C7 C0 E7 00 00 00                         mov     rax,0xE7
+00000040008D: 0F 05                                        syscall 
 '
