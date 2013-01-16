@@ -9,6 +9,7 @@ env:
 install:
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME
+   - uname -a
    - wget -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
    - unzip -q builderCI.zip
    - cd dalehenrich-builderCI*
