@@ -10,7 +10,7 @@ install:
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME
    - uname -a
-   - sudo apt-get install ia32-libs
+   - sudo apt-get install libc6:i386
    - wget -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
    - unzip -q builderCI.zip
    - cd dalehenrich-builderCI*
