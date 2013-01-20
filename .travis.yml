@@ -16,11 +16,5 @@ install:
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
 
-# edit the `build.sh` if you have put travisCI.st in a non-standard location
-script:
-   - ./build.sh -i $ST -m -f "$PROJECT_HOME/travisCI.st" -o travisCI
-   - cd "${BUILD_PATH}/travisCI/"
-   - $BUILDER_CI_HOME/buildImageErrorCheck.sh # dump Transcript on error and exit
-   - $BUILDER_CI_HOME/buildTravisStatusCheck.sh # dump Transcript on failed tests and exit
-# reach here on successful build
-#   - cat TravisTranscript.txt
+# use a different script if you want to customize how travis tests are run
+script: $BUILDER_CI_HOME/testTravisCI.sh
