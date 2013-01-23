@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 11/3/2011 14:32",
+	"commentStamp" : "MartinMcClure 1/21/2013 16:23",
 	"instvars" : [
 		"offset" ],
 	"name" : "FogX64StackTempLocation",

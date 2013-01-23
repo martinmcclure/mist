@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"addLoop:labeled:" : "MartinMcClure 10/6/2012 14:49",
-		"allocateStackTemp" : "MartinMcClure 11/5/2011 14:22",
+		"allocateStackTemp" : "MartinMcClure 1/21/2013 16:24",
 		"compile:" : "MartinMcClure 12/31/2012 18:02",
 		"initialize" : "MartinMcClure 10/6/2012 14:48",
 		"locationAcceptableTo:avoiding:" : "MartinMcClure 6/26/2011 19:47",

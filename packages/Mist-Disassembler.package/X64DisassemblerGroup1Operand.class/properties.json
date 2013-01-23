@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Disassembler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 1/21/2013 23:06",
+	"instvars" : [
+		 ],
+	"name" : "X64DisassemblerGroup1Operand",
+	"pools" : [
+		 ],
+	"super" : "X64DisassemblerRegisterOperand",
+	"type" : "normal" }

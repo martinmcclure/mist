@@ -1,0 +1,1 @@
+X64DisassemblerGroup1Operand is a pseudo-operand for group1 instructions whose mnemonic is specified by the reg field of the ModRM byte.

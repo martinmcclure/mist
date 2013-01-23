@@ -40,6 +40,7 @@ initialize
 	self
 		initializeRexPrefixes;
 		initialize7LineJccs;
+		initializeGroup1;
 		initialize8LineMovs;
 		initializeBLineMovs;
 		initializeCLine.
