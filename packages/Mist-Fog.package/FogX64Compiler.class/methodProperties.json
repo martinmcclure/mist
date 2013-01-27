@@ -5,7 +5,7 @@
 		"addLoop:labeled:" : "MartinMcClure 10/6/2012 14:49",
 		"allocateStackTemp" : "MartinMcClure 1/21/2013 16:24",
 		"compile:" : "MartinMcClure 12/31/2012 18:02",
-		"initialize" : "MartinMcClure 10/6/2012 14:48",
+		"initialize" : "MartinMcClure 1/24/2013 21:45",
 		"locationAcceptableTo:avoiding:" : "MartinMcClure 6/26/2011 19:47",
 		"locationAvoiding:" : "MartinMcClure 6/18/2011 08:22",
 		"locationsDo:" : "MartinMcClure 11/3/2011 14:51",
