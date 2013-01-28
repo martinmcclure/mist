@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"callIndirectHighReg" : "MartinMcClure 1/27/2013 16:38",
+		"eightBitRegs" : "MartinMcClure 1/27/2013 13:16",
 		"fortyTwo" : "MartinMcClure 1/21/2013 16:16",
 		"fortyTwoWithBreak" : "MartinMcClure 1/21/2013 16:10" },
 	"instance" : {
