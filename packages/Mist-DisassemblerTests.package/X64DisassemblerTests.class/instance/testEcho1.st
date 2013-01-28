@@ -16,15 +16,15 @@ testEcho1
 0000004000A6: 49 C7 C1 00 00 00 00                         mov     r9,0x0
 0000004000AD: 48 C7 C0 09 00 00 00                         mov     rax,0x9
 0000004000B4: 0F 05                                        syscall 
-0000004000B6: 4C 8B F8                                     mov     r15,rax
-0000004000B9: 4D 8B F7                                     mov     r14,r15
+0000004000B6: 48 8B E8                                     mov     rbp,rax
+0000004000B9: 4C 8B FD                                     mov     r15,rbp
 0000004000BC: 48 C7 C7 00 00 00 00                         mov     rdi,0x0
-0000004000C3: 49 8B F6                                     mov     rsi,r14
+0000004000C3: 49 8B F7                                     mov     rsi,r15
 0000004000C6: 48 C7 C2 01 00 00 00                         mov     rdx,0x1
 0000004000CD: 48 C7 C0 00 00 00 00                         mov     rax,0x0
 0000004000D4: 0F 05                                        syscall 
 0000004000D6: 48 C7 C7 01 00 00 00                         mov     rdi,0x1
-0000004000DD: 49 8B F6                                     mov     rsi,r14
+0000004000DD: 49 8B F7                                     mov     rsi,r15
 0000004000E0: 48 C7 C2 01 00 00 00                         mov     rdx,0x1
 0000004000E7: 48 C7 C0 01 00 00 00                         mov     rax,0x1
 0000004000EE: 0F 05                                        syscall 
