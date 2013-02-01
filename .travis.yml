@@ -1,9 +1,9 @@
 language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
-env:
-   - ST=Pharo-1.4
-   - ST=Squeak-4.3
+env: ST=Pharo-1.4
+#   - ST=Pharo-1.4 
+#   - ST=Squeak-4.3
 
 # Boilerplate ... should be no reason to edit the install section
 install:
