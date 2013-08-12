@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 7/22/2013 11:25",
+	"instvars" : [
+		"image" ],
+	"name" : "MistTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

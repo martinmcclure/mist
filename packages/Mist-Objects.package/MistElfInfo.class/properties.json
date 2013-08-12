@@ -1,0 +1,17 @@
+{
+	"category" : "Mist-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 7/18/2013 23:06",
+	"instvars" : [
+		"segmentSize",
+		"segmentSizeInFile",
+		"loadAddress",
+		"entryAddress" ],
+	"name" : "MistElfInfo",
+	"pools" : [
+		 ],
+	"super" : "MistStructObject",
+	"type" : "normal" }

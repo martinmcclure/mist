@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"compileAndDisassemble:" : "MartinMcClure 7/28/2013 12:25",
+		"testConsume1" : "MartinMcClure 8/12/2013 10:33",
+		"testEcho1" : "MartinMcClure 8/12/2013 10:27",
+		"testEchoMany" : "MartinMcClure 8/12/2013 10:39",
+		"testFortyTwo" : "MartinMcClure 7/28/2013 12:41",
+		"testIsB" : "MartinMcClure 8/12/2013 10:36",
+		"testPrint7" : "MartinMcClure 8/9/2013 15:20",
+		"testThreePlusFour" : "MartinMcClure 7/28/2013 12:47" } }

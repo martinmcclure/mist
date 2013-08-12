@@ -1,0 +1,15 @@
+{
+	"category" : "Mist-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 7/17/2013 23:26",
+	"instvars" : [
+		"address",
+		"sizeInBytes" ],
+	"name" : "MistObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

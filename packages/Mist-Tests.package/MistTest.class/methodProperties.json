@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cleanupExecutable" : "MartinMcClure 7/22/2013 11:26",
+		"execute:withStdin:" : "MartinMcClure 7/22/2013 11:26",
+		"runImage:withInput:expectingOutput:" : "MartinMcClure 7/23/2013 13:50",
+		"runImage:withInput:expectingOutput:expectingExitStatus:" : "MartinMcClure 7/23/2013 23:47",
+		"setUp" : "MartinMcClure 7/28/2013 12:26",
+		"tearDown" : "MartinMcClure 7/22/2013 11:26",
+		"waitForProcess:" : "MartinMcClure 7/22/2013 11:26",
+		"writeImage:toFileNamed:andRunWithStdin:" : "MartinMcClure 7/23/2013 13:34" } }

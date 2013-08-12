@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"compile:" : "MartinMcClure 7/20/2013 00:58",
+		"freeObjectOfSize:" : "MartinMcClure 7/19/2013 15:07",
+		"initialize" : "MartinMcClure 7/19/2013 15:44",
+		"startMethod:" : "MartinMcClure 7/20/2013 23:54",
+		"writeToFileNamed:" : "MartinMcClure 7/21/2013 10:17",
+		"writeToStream:" : "MartinMcClure 7/21/2013 10:33" } }

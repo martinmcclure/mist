@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"for:on:" : "MartinMcClure 7/21/2013 11:11" },
+	"instance" : {
+		"elfInfo:" : "MartinMcClure 7/21/2013 11:13",
+		"stream:" : "MartinMcClure 7/21/2013 11:13",
+		"write" : "MartinMcClure 7/21/2013 11:01",
+		"write1:" : "MartinMcClure 7/21/2013 10:54",
+		"write2:" : "MartinMcClure 7/21/2013 10:54",
+		"write4:" : "MartinMcClure 7/21/2013 10:54",
+		"write8:" : "MartinMcClure 7/21/2013 10:55",
+		"writeElfHeader" : "MartinMcClure 7/21/2013 10:59",
+		"writeIdent" : "MartinMcClure 7/21/2013 10:54",
+		"writeProgramHeaderTable" : "MartinMcClure 7/21/2013 11:05",
+		"writeSegments" : "MartinMcClure 8/16/2010 11:12",
+		"writeString:" : "MartinMcClure 7/21/2013 11:21",
+		"writeToFileNamed:" : "tfel 9/6/2012 15:49",
+		"writeZeros:" : "MartinMcClure 7/21/2013 10:55" } }

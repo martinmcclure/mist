@@ -1,0 +1,6 @@
+MistStructObject -- an object that has indexable bytes *before* its class pointer. Typical objects in memory consist of their class pointer, then any other named instance variables, then indexed pointers or bytes. When the object's memory may be interpreted by an external program it can be required that the first memory (lowest address) be that interpreted by that program; this is where the StructObject comes in. A StructObject lives entirely within a Mist object space. 
+
+It can also be necessary to interact with memory that is managed by an external program or that must consist *only* of the memory the external program expects (can have extra bytes neither before nor after the ones the external program defines). StructObject is *not* intended to handle this case; that would be handled by a Mist object containing a pointer to memory external to the Mist object space.
+
+Instance Variables:
+	theBytes	<ByteArray>  The bytes that will go before the class pointer. The size of this array determines the offset from the start of the object's memory to the class pointer, and must be a multiple of 8.

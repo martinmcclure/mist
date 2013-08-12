@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 7/11/2013 05:36",
+	"instvars" : [
+		"nextFreeObject" ],
+	"name" : "MistFreeObject",
+	"pools" : [
+		 ],
+	"super" : "MistObject",
+	"type" : "normal" }

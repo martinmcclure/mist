@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addObject:" : "MartinMcClure 7/19/2013 15:40",
+		"growBy8K" : "MartinMcClure 7/19/2013 15:30",
+		"initialize" : "MartinMcClure 7/23/2013 23:51",
+		"sizeInBytes" : "MartinMcClure 7/21/2013 10:29",
+		"startAddress" : "MartinMcClure 7/19/2013 15:46",
+		"writeToStream:" : "MartinMcClure 7/21/2013 10:35" } }

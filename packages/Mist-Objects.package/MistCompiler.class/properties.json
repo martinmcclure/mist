@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"objectManager" ],
+	"name" : "MistCompiler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

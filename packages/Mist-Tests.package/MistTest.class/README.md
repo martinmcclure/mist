@@ -1,0 +1,1 @@
+An abstract superclass for Mist functional tests, providing services of general usefulness to tests.

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"new:" : "MartinMcClure 7/20/2013 01:01" },
+	"instance" : {
+		"disassembled" : "MartinMcClure 7/23/2013 23:29",
+		"entryAddress" : "MartinMcClure 7/20/2013 23:56",
+		"fog:" : "MartinMcClure 7/20/2013 13:31",
+		"machineCode:" : "MartinMcClure 7/20/2013 13:33",
+		"machineCodeSize:" : "MartinMcClure 7/20/2013 14:13",
+		"source:" : "MartinMcClure 7/20/2013 13:32",
+		"writeToStream:" : "MartinMcClure 7/21/2013 11:26" } }

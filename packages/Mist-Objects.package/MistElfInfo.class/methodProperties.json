@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"computeBytes" : "MartinMcClure 7/21/2013 11:14",
+		"entryAddress" : "MartinMcClure 7/21/2013 10:58",
+		"entryAddress:" : "MartinMcClure 7/20/2013 23:54",
+		"initialize" : "MartinMcClure 7/19/2013 11:04",
+		"loadAddress" : "MartinMcClure 7/21/2013 11:03",
+		"loadAddress:" : "MartinMcClure 7/19/2013 15:45",
+		"segmentSize" : "MartinMcClure 7/21/2013 11:22",
+		"segmentSize:" : "MartinMcClure 7/21/2013 10:32",
+		"segmentSizeInFile" : "MartinMcClure 7/21/2013 11:04",
+		"segmentSizeInFile:" : "MartinMcClure 7/21/2013 10:32",
+		"writeToStream:" : "MartinMcClure 7/21/2013 10:40" } }
