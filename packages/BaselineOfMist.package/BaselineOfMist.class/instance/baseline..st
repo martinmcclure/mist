@@ -8,14 +8,14 @@ baseline: spec
 				package: 'Mist-Elf';
 				package: 'Mist-Disassembler';
 				package: 'Mist-Fog' with: [ spec requires: #('AsmJit') ];
-				package: 'Mist-Objects' with: [spec requires: #('Mist-Fog' 'Mist-Elf')];
-				package: 'Mist-Tests' with: [spec requires: #('Mist-Objects')].
+				package: 'Mist-Objects' with: [ spec requires: #('Mist-Fog' 'Mist-Elf') ];
+				package: 'Mist-Tests' with: [ spec requires: #('Mist-Objects' 'Mist-Disassembler') ].
 			spec
 				group: 'default' with: #('Mist-Elf' 'Mist-Disassembler' 'Mist-Fog' 'Mist-Objects');
-						group: 'Tests' with: #('Mist-Tests').
+				group: 'Tests' with: #('Mist-Tests').
 			spec
 				project: 'AsmJit'
 				with: [ 
 					spec
 						className: 'BaselineOfAsmJit';
-								repository: 'github://martinmcclure/AsmJit:master/packages' ] ]
+						repository: 'github://martinmcclure/AsmJit:master/packages' ] ]
