@@ -9,8 +9,8 @@ pass2CompileOn: codeStream
 	finalLabel 	"
 
 	| elseLabel finalLabel opSymbol |
-	elseLabel := AJJumpLabel new name: 'elseLabel' copy.
-	finalLabel := AJJumpLabel new name: 'finalLabel' copy.
+	elseLabel := codeStream uniqueLabelName: 'elseLabel'.
+	finalLabel := codeStream uniqueLabelName: 'finalLabel'.
 	opSymbol := ('jn' , flagSymbol asLowercase , ':') asSymbol.
 	(children at: 1) child pass2CompileOn: codeStream.
 	codeStream perform: opSymbol with: elseLabel.

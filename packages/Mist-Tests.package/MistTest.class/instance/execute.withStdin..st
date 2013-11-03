@@ -1,12 +1,12 @@
 support
 execute: aFile withStdin: stdin
 	| process stderr stdout fullFilePath |
-	fullFilePath := (FileDirectory default / aFile) fullName.
+	fullFilePath := (aFile asFileReference) fullName.
 	OSProcess waitForCommand: 'chmod +x ', fullFilePath.
 	stdout := StandardFileStream forceNewFileNamed: aFile, '.stdout'.
 	stderr := StandardFileStream forceNewFileNamed: aFile, '.stderr'.
 	process := OSProcess thisOSProcess
-		forkAndExec: (FileDirectory default / aFile) fullName
+		forkAndExec: (aFile asFileReference) fullName
 		arguments: #()
 		environment: (Dictionary newFrom: {'HOME' -> '/tmp'})
 		descriptors: {stdin. stdout. stderr}.

@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"cleanupExecutable" : "MartinMcClure 7/22/2013 11:26",
-		"execute:withStdin:" : "MartinMcClure 7/22/2013 11:26",
+		"cleanupExecutable" : "MartinMcClure 8/15/2013 14:28",
+		"execute:withStdin:" : "MartinMcClure 9/12/2013 05:51",
 		"runImage:withInput:expectingOutput:" : "MartinMcClure 7/23/2013 13:50",
 		"runImage:withInput:expectingOutput:expectingExitStatus:" : "MartinMcClure 7/23/2013 23:47",
 		"setUp" : "MartinMcClure 7/28/2013 12:26",
