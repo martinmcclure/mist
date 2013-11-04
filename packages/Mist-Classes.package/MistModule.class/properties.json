@@ -1,0 +1,15 @@
+{
+	"category" : "Mist-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"variables" ],
+	"name" : "MistModule",
+	"pools" : [
+		 ],
+	"super" : "MistObject",
+	"type" : "normal" }

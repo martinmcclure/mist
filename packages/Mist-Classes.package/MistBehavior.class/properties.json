@@ -1,0 +1,16 @@
+{
+	"category" : "Mist-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"module",
+		"methods" ],
+	"name" : "MistBehavior",
+	"pools" : [
+		 ],
+	"super" : "MistObject",
+	"type" : "normal" }
