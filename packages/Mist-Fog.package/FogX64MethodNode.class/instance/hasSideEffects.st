@@ -1,0 +1,4 @@
+testing
+hasSideEffects 
+
+	^true

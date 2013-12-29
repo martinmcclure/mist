@@ -1,6 +1,6 @@
 tests
 testConsume1
-	image startMethod: (image compile: self class sourceConsume1).
+	image startupMethod: (image compileSource: self class sourceConsume1).
 	self
 		runImage: image
 		withInput: 'f'

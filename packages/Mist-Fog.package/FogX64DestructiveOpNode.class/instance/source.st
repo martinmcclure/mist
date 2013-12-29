@@ -1,3 +1,3 @@
 private-accessing
 source
-	^ children at: 1
+	^ children at: 2

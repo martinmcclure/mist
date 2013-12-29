@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Fog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"isReturnedFrom" ],
+	"name" : "FogX64MethodNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64VariableScopeNode",
+	"type" : "normal" }

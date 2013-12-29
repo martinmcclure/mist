@@ -19,7 +19,7 @@ assignOutputVariableAvoiding: siblingClobbered
 							possibleLocation := compiler locationAcceptableTo: parent parentAcceptable avoiding: siblingClobbered.
 							restingLocation := possibleLocation isAssignable
 								ifTrue: [ possibleLocation ]
-								ifFalse: [ compiler locationAvoiding: siblingClobbered ] ] ].
+								ifFalse: [ siblingClobbered nextAvailableLocation ] ] ].
 			parent generationLocation: generationLocation.
 			parent restingLocation: restingLocation.
 			siblingClobbered add: restingLocation.	"Generation location is either scratch or the same as resting location"

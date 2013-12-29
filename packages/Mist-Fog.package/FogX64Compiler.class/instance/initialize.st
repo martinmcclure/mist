@@ -21,3 +21,4 @@ initialize
 	(l r: #rdx).
 	(l r: #rsi).
 	(l r: #rdi)}
+	"rsp is reserved as stack pointer. rax, rbx, and r11 are scratch registers usable by any single node."

@@ -1,3 +1,3 @@
 private-accessing
 destination
-	^ children at: 2
+	^ children at: 1

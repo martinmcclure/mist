@@ -1,0 +1,16 @@
+{
+	"category" : "Mist-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"classSpec",
+		"metaclassSpec" ],
+	"name" : "MistClassSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

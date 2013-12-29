@@ -1,3 +1,3 @@
 private-accessing
 source: aVar
-	^ children at: 1 put: aVar
+	^ children at: 2 put: aVar

@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"compile:" : "MartinMcClure 7/20/2013 00:58",
+		"compileFog:" : "MartinMcClure 12/24/2013 23:32",
+		"compileSource:" : "MartinMcClure 12/25/2013 11:18",
 		"freeObjectOfSize:" : "MartinMcClure 7/19/2013 15:07",
+		"initialStackPointerAddress" : "MartinMcClure 12/25/2013 11:25",
+		"initializationMethodCalling:" : "MartinMcClure 12/25/2013 17:36",
 		"initialize" : "MartinMcClure 7/19/2013 15:44",
-		"startMethod:" : "MartinMcClure 7/20/2013 23:54",
+		"startupMethod:" : "MartinMcClure 12/24/2013 22:32",
 		"writeToFileNamed:" : "MartinMcClure 7/21/2013 10:17",
 		"writeToStream:" : "MartinMcClure 7/21/2013 10:33" } }

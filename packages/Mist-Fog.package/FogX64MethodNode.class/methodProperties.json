@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"withArguments:children:" : "MartinMcClure 12/27/2013 23:06" },
+	"instance" : {
+		"arguments:body:" : "MartinMcClure 12/26/2013 22:28",
+		"emitOpTo:" : "MartinMcClure 12/27/2013 20:30",
+		"hasSideEffects" : "MartinMcClure 12/27/2013 11:54",
+		"initialize" : "MartinMcClure 12/26/2013 21:32",
+		"initializeChildVariables" : "MartinMcClure 12/28/2013 17:19",
+		"pass2CompileOn:" : "MartinMcClure 12/27/2013 20:25",
+		"simpleLabel" : "MartinMcClure 12/26/2013 22:40" } }

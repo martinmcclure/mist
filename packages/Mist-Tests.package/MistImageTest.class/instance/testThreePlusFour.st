@@ -1,6 +1,6 @@
 tests
 testThreePlusFour
-	image startMethod: (image compile: self class sourceThreePlusFour).
+	image startupMethod: (image compileSource: self class sourceThreePlusFour).
 	self
 		runImage: image
 		withInput: ''

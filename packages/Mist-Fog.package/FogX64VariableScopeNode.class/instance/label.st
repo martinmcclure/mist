@@ -1,6 +1,6 @@
 portable-printing
 label
 	| label |
-	label := 'Variable Scope: '.
+	label := self simpleLabel.
 	vDict keysDo: [ :name | label := label , '''' , name , ''' ' ].
 	^ label

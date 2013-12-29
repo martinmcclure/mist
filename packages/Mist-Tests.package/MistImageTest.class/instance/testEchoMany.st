@@ -1,7 +1,7 @@
 tests
 testEchoMany
-	| program esc lf strings |
-	image startMethod: (image compile: self class sourceEchoMany).
+	| esc lf strings |
+	image startupMethod: (image compileSource: self class sourceEchoMany).
 	esc := String with: Character escape.
 	lf := String with: Character lf.
 	strings := {''.

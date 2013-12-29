@@ -6,4 +6,5 @@ Instance Variables:
 	objectSpace	<ObjectSpace> 	The ObjectSpace with all of the objects
 	objectManager <ObjectManager> 	Allocates objects within the object space
 	elfInfo			<ElfInfo>			The first object in the memory described by the ObjectSpace
-	startMethod	<Method>			The initialization method to be run first when the kernel loads the image
+	initializationMethod		<Method>	A small piece of initialization code that is the first code run upon launch. It is responsible for initializing the stack pointer, then calling the startupMethod, then exiting with whatever return code the startupMethod returns. Always the same -- this is not application-dependent.
+	startupMethod	<Method>	The initialization method to be run first when the kernel loads the image. It is run by the initializationMethod. This can vary by application.

@@ -1,0 +1,16 @@
+{
+	"category" : "Mist-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"composition",
+		"instvars",
+		"methods" ],
+	"name" : "MistBehaviorSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

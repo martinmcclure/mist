@@ -16,4 +16,4 @@ locationAvoiding: clobbered compiler: compiler
 			loc := compiler locationAcceptableTo: prefs avoiding: clobbered.
 			loc isAssignable
 				ifTrue: [ ^ loc ] ].
-	^ compiler locationAvoiding: clobbered
+	^ clobbered nextAvailableLocation

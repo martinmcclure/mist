@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 7/19/2013 14:56",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"objectSpace",
 		"objectManager",
 		"elfInfo",
-		"startMethod" ],
+		"initializationMethod",
+		"startupMethod" ],
 	"name" : "MistImage",
 	"pools" : [
 		 ],

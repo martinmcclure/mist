@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"name",
-		"variables" ],
+		"spec",
+		"bindings" ],
 	"name" : "MistModule",
 	"pools" : [
 		 ],
-	"super" : "MistObject",
+	"super" : "Object",
 	"type" : "normal" }

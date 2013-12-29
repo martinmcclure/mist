@@ -1,0 +1,15 @@
+{
+	"category" : "Mist-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"isPrivate" ],
+	"name" : "MistMethodSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
