@@ -1,8 +1,13 @@
 x64-compiling-pass1
 assignInputVariableNumber: i
-	"This is not quite right. There can be more inputs than we have scratch registers. Need to prove that scratch registers won't ever be needed on input or make this logic reconcile the set of resting locations with acceptable consumption locations."
-	| childVar |
+	"If the child and parent can't agree, they go to binding arbitration. 
+	No, not really. In that case, we require that the parent be picky enough to be requiring one specific register,
+	and will error if it is more liberal. It's unclear at this point whether this will ever happen -- if it does we'll need
+	a more complex algorithm."
+
+self halt. "This method should not be used anymore. "
+	"| childVar |
 	childVar := children at: i.
 	(childVar parentAcceptable isAcceptable: childVar restingLocation)
 		ifTrue: [ childVar consumptionLocation: childVar restingLocation ]
-		ifFalse: [self halt: 'This is the problematic case.'. childVar consumptionLocation: (self scratchInputLocationNumber: i) ]
+		ifFalse: [ childVar consumptionLocation: childVar parentAcceptable uniqueScratchRegister ]"

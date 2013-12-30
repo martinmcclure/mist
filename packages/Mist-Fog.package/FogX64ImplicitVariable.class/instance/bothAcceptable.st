@@ -1,3 +1,3 @@
 accessing
 bothAcceptable
-	^ childAcceptable intersection: parentAcceptable  
+	^ childNode acceptableGenerationLocations intersection: (parentNode acceptableConsumptionLocationsFor: self)

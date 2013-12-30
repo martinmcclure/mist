@@ -5,8 +5,8 @@ locationAvoiding: clobbered compiler: compiler
 	* Child
 	* Parent
 	* Neither"
-
-	isDummy
+self halt. "This method should not be used anymore."
+	"isDummy
 		ifTrue: [ ^ FogX64Location noLocation ].
 	{(self bothAcceptable).
 	childAcceptable.
@@ -16,4 +16,4 @@ locationAvoiding: clobbered compiler: compiler
 			loc := compiler locationAcceptableTo: prefs avoiding: clobbered.
 			loc isAssignable
 				ifTrue: [ ^ loc ] ].
-	^ clobbered nextAvailableLocation
+	^ clobbered nextAvailableLocation"

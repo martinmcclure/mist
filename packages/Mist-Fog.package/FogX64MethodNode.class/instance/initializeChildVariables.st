@@ -7,9 +7,4 @@ initializeChildVariables
 	1 to: children size - 1 do: [ :i | (children at: i) beDummy ].
 	lastChildVar := children at: children size.	"Method nodes always have at least one child"
 	isReturnedFrom
-		ifTrue: [ 
-			| pref |
-			pref := FogX64LocationPreferences new.
-			pref onlyRegister: (FogX64Location r: #rax).
-			lastChildVar parentAcceptable: pref ]
 		ifFalse: [ lastChildVar beDummy ]

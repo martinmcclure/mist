@@ -10,7 +10,6 @@
 		"childNode",
 		"isDummy",
 		"parentAcceptable",
-		"childAcceptable",
 		"generationLocation",
 		"restingLocation",
 		"consumptionLocation" ],

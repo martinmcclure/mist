@@ -4,9 +4,10 @@ initializeChildVariables
 
 	(parent isDummy and: [ self hasSideEffects not ])
 		ifTrue: [ children do: [ :childVar | childVar beDummy ] ].
-	1 to: children size
+	"1 to: children size
 		do: [ :i | 
 			| childVar pref |
 			childVar := children at: i.
 			pref := self locationPreferencesForChildNum: i.
-			childVar parentAcceptable: pref ]
+			childVar parentAcceptable: pref ]"
+		true ifFalse: [self halt]

@@ -10,5 +10,4 @@ pass1InOrderChildClobbered: childClobbered
 		childVar := children at: i.
 		thisChildClobbered := ClobberedSet compiler: compiler.
 		childVar child pass1CompileWith: compiler siblingClobbered: thisChildClobbered.
-		childClobbered addAll: thisChildClobbered.
-		self assignInputVariableNumber: i ]
+		childClobbered addAll: thisChildClobbered ]

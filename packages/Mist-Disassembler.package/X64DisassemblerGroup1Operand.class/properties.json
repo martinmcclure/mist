@@ -10,5 +10,5 @@
 	"name" : "X64DisassemblerGroup1Operand",
 	"pools" : [
 		 ],
-	"super" : "X64DisassemblerRegisterOperand",
+	"super" : "X64DisassemblerRegFieldGroupOperand",
 	"type" : "normal" }

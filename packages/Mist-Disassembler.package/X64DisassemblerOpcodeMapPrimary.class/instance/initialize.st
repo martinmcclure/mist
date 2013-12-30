@@ -41,6 +41,8 @@ initialize
 		initializeRexPrefixes;
 		initialize7LineJccs;
 		initializeGroup1;
+		initializeGroup2;
+		initializeGroup5;
 		initialize8LineMovs;
 		initializeBLineMovs;
 		initializeCLine.

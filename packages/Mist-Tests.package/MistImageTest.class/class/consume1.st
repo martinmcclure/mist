@@ -1,12 +1,12 @@
 test programs
 consume1
-	"Read one character from stdin.. First, take stdin's tty out of canonical mode with an ioctl. After character is read, restore canonical mode.
-	Exit code is the numerical value of the character read.."
+	"A primitive method that reads one character from stdin. First, take stdin's tty out of canonical mode with an ioctl. After character is read, restore canonical mode.
+	 Answers a SmallInteger, the numerical value of the character read."
 
 	^ Fog
-		program:
-			{"(Fog breakpoint)."
-			(Fog
+		methodWithArguments: {'self'}
+		body:
+			{(Fog
 				variableScope:
 					{'termiosPtr'.
 					'bufPtr'}
@@ -67,4 +67,4 @@ consume1
 							{(Fog intConstant: 0).	"stdin"
 							(Fog intConstant: 16r5402).	"TCSETS"
 							(Fog fetchVariable: 'termiosPtr')}).
-					(Fog sysCall: #exit_group args: {(Fog fetchFrom: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 0))})})}
+					(Fog intToSmallInt: (Fog fetchFrom: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 0)))})}

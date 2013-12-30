@@ -3,7 +3,8 @@ assignOutputVariableAvoiding: siblingClobbered
 	"Assign my output variable, if not dummy, to a generation location and a resting location, each of which is not siblingClobbered. Then, add those locations to siblingClobbered. 
 	Use a location that is acceptable to both me and my parent, if possible. If that's not possible, use a location that is acceptable to me. If all locations acceptable to me are clobbered, use a scratch register for the generation location and the first available (non-clobbered) location for the resting location and I'll emit an extra move instruction in pass 2 to make up for the discrepancy."
 
-	parent isDummy
+self halt. "This method should not be used anymore."
+"	parent isDummy
 		ifTrue: [ parent assignAsDummy ]
 		ifFalse: [ 
 			| possibleLocation generationLocation restingLocation |
@@ -22,5 +23,5 @@ assignOutputVariableAvoiding: siblingClobbered
 								ifFalse: [ siblingClobbered nextAvailableLocation ] ] ].
 			parent generationLocation: generationLocation.
 			parent restingLocation: restingLocation.
-			siblingClobbered add: restingLocation.	"Generation location is either scratch or the same as resting location"
-			compiler usingLocation: restingLocation ]
+			siblingClobbered add: restingLocation.	""Generation location is either scratch or the same as resting location""
+			compiler usingLocation: restingLocation ]"

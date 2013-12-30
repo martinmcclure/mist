@@ -1,3 +1,3 @@
 assigning
 assignAsDummy
-	generationLocation := restingLocation := FogX64Location noLocation
+	generationLocation := restingLocation := consumptionLocation := FogX64Location noLocation
