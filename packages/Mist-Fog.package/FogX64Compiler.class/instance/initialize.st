@@ -20,5 +20,8 @@ initialize
 	(l r: #rcx).
 	(l r: #rdx).
 	(l r: #rsi).
-	(l r: #rdi)}
-	"rsp is reserved as stack pointer. rax, rbx, and r11 are scratch registers usable by any single node."
+	(l r: #rdi)}.
+	allRegisters := {(l r: #rax).
+	(l r: #rbx).
+	(l r: #r11)} , assignableRegisters	"rsp is reserved as stack pointer. rax, rbx, and r11 are scratch registers usable by any single node.
+	AllRegisters includes the scratch registers, but not rsp."

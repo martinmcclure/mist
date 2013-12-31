@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "MartinMcClure 10/6/2012 14:47",
 	"instvars" : [
+		"allRegisters",
 		"assignableRegisters",
 		"codeStream",
 		"loopsInScope",

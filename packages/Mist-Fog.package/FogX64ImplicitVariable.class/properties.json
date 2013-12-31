@@ -9,6 +9,7 @@
 		"parentNode",
 		"childNode",
 		"isDummy",
+		"indexInParent",
 		"parentAcceptable",
 		"generationLocation",
 		"restingLocation",
