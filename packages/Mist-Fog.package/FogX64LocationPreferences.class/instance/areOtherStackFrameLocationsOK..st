@@ -1,0 +1,3 @@
+accessing
+areOtherStackFrameLocationsOK: aBoolean
+	areOtherStackFrameLocationsOK := aBoolean

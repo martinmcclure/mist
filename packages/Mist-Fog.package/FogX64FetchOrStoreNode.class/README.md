@@ -5,6 +5,6 @@ Children:
 	2: Offset from base (64-bit words or bytes, depending on subclass)
 	3: (store subclasses only) Value to be stored
 	
-Result value passed to parent:
-	Fetch nodes pass the byte (0-extended) or 64-bit word fetched.
-	Store nodes pass their third child's result; the value stored.
+Result value presented to parent:
+	Fetch nodes present the byte (0-extended) or 64-bit word fetched.
+	Store nodes present their third child's result; the value stored.

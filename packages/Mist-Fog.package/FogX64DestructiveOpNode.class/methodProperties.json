@@ -3,12 +3,12 @@
 		"destination:source:" : "MartinMcClure 7/1/2011 12:32",
 		"numberOfChildren" : "MartinMcClure 5/17/2011 22:01" },
 	"instance" : {
-		"assignOutputVariableAvoiding:" : "MartinMcClure 9/27/2012 22:30",
+		"acceptableConsumptionLocationsForChildNum:" : "MartinMcClure 1/1/2014 16:45",
+		"acceptableGenerationLocations" : "MartinMcClure 1/1/2014 19:21",
 		"destLoc" : "MartinMcClure 8/25/2011 09:18",
 		"destination" : "MartinMcClure 12/25/2013 20:13",
 		"destination:" : "MartinMcClure 12/25/2013 20:13",
 		"hasSideEffects" : "MartinMcClure 9/23/2012 13:25",
-		"locationPreferencesForChildNum:" : "MartinMcClure 12/29/2013 21:23",
 		"source" : "MartinMcClure 12/25/2013 20:13",
 		"source:" : "MartinMcClure 12/25/2013 20:13",
 		"sourceLoc" : "MartinMcClure 8/25/2011 09:18" } }

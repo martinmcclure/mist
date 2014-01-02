@@ -6,9 +6,7 @@ echoMany
 
 	| loopLabel |
 	loopLabel := 'loopLabel' copy.	"Unique object identifying the loop."
-	^ Fog
-		program:
-			{"(Fog breakpoint)."
+	^ Fog methodWithArguments: {'self'} body: {
 			(Fog
 				variableScope:
 					{'termiosPtr'.
@@ -97,4 +95,4 @@ echoMany
 							{(Fog intConstant: 0).	"stdin"
 							(Fog intConstant: 16r5402).	"TCSETS"
 							(Fog fetchVariable: 'termiosPtr')})}).
-			(Fog sysCall: #exit_group args: {(Fog intConstant: 0)})}
+			(Fog intConstant: 0)}

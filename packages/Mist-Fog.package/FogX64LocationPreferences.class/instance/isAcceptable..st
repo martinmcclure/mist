@@ -1,8 +1,5 @@
 testing
 isAcceptable: loc
-	loc isNoLocation
-		ifTrue: [ ^ true ].
-	loc isRegister
-		ifTrue: [ ^ acceptableRegisters includes: loc ].
-	loc isMemory
-		ifTrue: [ ^ isStackFrameLocationOK ]
+	^ (loc isNoLocation or: [ acceptableLocations includes: loc ])
+		ifTrue: [ true ]
+		ifFalse: [ loc isMemory and: [ areOtherStackFrameLocationsOK ] ]

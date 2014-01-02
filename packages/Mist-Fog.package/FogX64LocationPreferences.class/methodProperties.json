@@ -2,16 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptableRegisters" : "MartinMcClure 5/31/2011 08:04",
-		"acceptableRegisters:" : "MartinMcClure 5/31/2011 08:07",
-		"initialize" : "MartinMcClure 11/3/2011 10:21",
-		"intersection:" : "MartinMcClure 5/31/2011 08:15",
-		"isAcceptable:" : "MartinMcClure 8/25/2011 08:54",
-		"isStackFrameLocationOK" : "MartinMcClure 5/31/2011 08:04",
-		"isStackFrameLocationOK:" : "MartinMcClure 5/17/2011 21:48",
-		"mustBeRegister" : "MartinMcClure 5/26/2011 16:58",
-		"onlyRegister:" : "MartinMcClure 5/26/2011 17:20",
-		"printOn:" : "MartinMcClure 9/23/2012 23:21",
-		"specifiesUniqueRegister" : "MartinMcClure 12/29/2013 11:10",
-		"unacceptableRegisters:" : "MartinMcClure 5/17/2011 21:51",
-		"uniqueScratchRegister" : "MartinMcClure 12/29/2013 17:37" } }
+		"acceptableLocations" : "MartinMcClure 1/1/2014 16:35",
+		"acceptableLocations:" : "MartinMcClure 1/1/2014 16:36",
+		"areOtherStackFrameLocationsOK" : "MartinMcClure 1/1/2014 16:41",
+		"areOtherStackFrameLocationsOK:" : "MartinMcClure 1/1/2014 16:41",
+		"initialize" : "MartinMcClure 1/1/2014 16:38",
+		"intersection:" : "MartinMcClure 1/1/2014 16:41",
+		"isAcceptable:" : "MartinMcClure 1/1/2014 16:40",
+		"mustBeRegister" : "MartinMcClure 1/1/2014 16:43",
+		"onlyLocation:" : "MartinMcClure 1/1/2014 21:09",
+		"onlyRegister:" : "MartinMcClure 1/1/2014 16:29",
+		"printOn:" : "MartinMcClure 1/1/2014 16:44",
+		"unacceptableLocations:" : "MartinMcClure 1/1/2014 20:18" } }

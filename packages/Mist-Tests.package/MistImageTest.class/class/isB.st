@@ -5,9 +5,9 @@ isB
 	Exit code is 0."
 
 	^ Fog
-		program:
-			{"(Fog breakpoint)."
-			(Fog
+		methodWithArguments: {'self'}
+		body:
+			{(Fog
 				variableScope:
 					{'termiosPtr'.
 					'bufPtr'}
@@ -85,4 +85,4 @@ isB
 							{(Fog intConstant: 1).	"fd"
 							(Fog intAdd: (Fog fetchVariable: 'bufPtr') to: (Fog intConstant: 1)).
 							(Fog intConstant: 1)	"size"})}).
-			(Fog sysCall: #exit_group args: {(Fog intConstant: 0)})}
+			(Fog intConstant: 0)}

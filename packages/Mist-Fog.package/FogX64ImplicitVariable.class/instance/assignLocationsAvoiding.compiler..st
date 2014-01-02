@@ -4,49 +4,49 @@ assignLocationsAvoiding: siblingClobbered compiler: compiler
 	* The generation location must be acceptable to my child node.
 	* The resting location must not be siblingClobbered.
 	* The consumption location must be acceptable to my parent node.
+	* If the generation and resting locations are not the same location, at least one must be a register.
+	* If the resting and consumption locations are not the same location, at least one must be a register.
 	
+	To achieve the latter two constraints, we constrain the generation and consumption locations to be registers 
+	when they're not the same as the resting location, though this is technically more strict than required.
+		
 	Answer the locations assigned."
 
 	self isDummy
 		ifTrue: [ self assignAsDummy ]
 		ifFalse: [ 
-			| ca pa trialLocation |
+			| ca pa bothAcceptable trialLocation |
 			ca := childNode acceptableGenerationLocations.
-			pa := parentNode acceptableConsumptionLocationsFor: self.
-			trialLocation := compiler locationAcceptableTo: self bothAcceptable avoiding: siblingClobbered.
+			pa := parentNode acceptableConsumptionLocationsForChildNum: indexInParent.
+			bothAcceptable := ca intersection: pa.
+			trialLocation := compiler restingLocationAcceptableTo: bothAcceptable avoiding: siblingClobbered.
 			trialLocation == nil
-				ifFalse: [ generationLocation := restingLocation := consumptionLocation := trialLocation ]
+				ifFalse: [ 
+					"Got it in one. Sweet!"
+					generationLocation := restingLocation := consumptionLocation := trialLocation ]
 				ifTrue: [ 
 					"Failed to find a single location for all three. Try for generation and resting the same."
-					trialLocation := compiler locationAcceptableTo: ca avoiding: siblingClobbered.
+					trialLocation := compiler restingLocationAcceptableTo: ca avoiding: siblingClobbered.
 					trialLocation == nil
 						ifFalse: [ 
 							generationLocation := restingLocation := trialLocation.
-							consumptionLocation := compiler locationAcceptableTo: pa avoiding: (ClobberedSet compiler: compiler) ]
+							consumptionLocation := compiler anyRegisterLocationAcceptableTo: pa ]
 						ifTrue: [ 
 							"Failed to find acceptable generation and resting. Try for resting and consumption the same."
-							trialLocation := compiler locationAcceptableTo: pa avoiding: siblingClobbered.
+							trialLocation := compiler restingLocationAcceptableTo: pa avoiding: siblingClobbered.
 							trialLocation == nil
 								ifFalse: [ 
 									restingLocation := consumptionLocation := trialLocation.
-									generationLocation := compiler locationAcceptableTo: ca avoiding: (ClobberedSet compiler: compiler) ]
+									generationLocation := compiler anyRegisterLocationAcceptableTo: ca ]
 								ifTrue: [ 
-									"They'll have to be all three different"
-									generationLocation := compiler locationAcceptableTo: ca avoiding: (ClobberedSet compiler: compiler).
-									restingLocation := compiler locationAcceptableTo: FogX64LocationPreferences new avoiding: siblingClobbered.
-									consumptionLocation := compiler locationAcceptableTo: pa avoiding: (ClobberedSet compiler: compiler) ] ] ].
-			generationLocation == nil
-				ifTrue: [ 
-					"Child may need this in a specific scratch register. 
-					Scratch registers would not have been considered above."
-					generationLocation := ca uniqueScratchRegister ].
-			consumptionLocation == nil
-				ifTrue: [ 
-					"Parent may need this in a specific scratch register. 
-					Scratch registers would not have been considered above."
-					consumptionLocation := pa uniqueScratchRegister ].
-			restingLocation == nil
-				ifTrue: [ self error: 'Variable assignment failed.' ] ].
+									"They'll have to be all three different. Since there can always be another stack location created that will be 
+									an acceptable resting location, we can safely assume that the others can be registers. And since it won't be
+									a resting location, we're free to consider the scratch registers."
+									generationLocation := compiler anyRegisterLocationAcceptableTo: ca.
+									restingLocation := compiler restingLocationAvoiding: siblingClobbered.
+									consumptionLocation := compiler anyRegisterLocationAcceptableTo: pa ] ] ].
+			((generationLocation == nil | consumptionLocation) == nil | restingLocation) == nil
+				ifTrue: [ self error: 'Could not assign a location to a variable.' ] ].
 	^ {generationLocation.
 	restingLocation.
 	consumptionLocation}

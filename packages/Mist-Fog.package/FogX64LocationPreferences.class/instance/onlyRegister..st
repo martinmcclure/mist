@@ -1,6 +1,6 @@
 accessing
 onlyRegister: aRegister
 	self mustBeRegister.
-	acceptableRegisters
+	acceptableLocations
 		removeAll;
 		add: aRegister

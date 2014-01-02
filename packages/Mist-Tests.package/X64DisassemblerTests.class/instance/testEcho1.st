@@ -6,7 +6,7 @@ testEcho1
 		assert: disassembly
 		equals:
 			'000000400130: 48 83 EC 08                                  sub     rsp,0x8
-000000400134: 4C 8B E7                                     mov     r12,rdi
+000000400134: 4C 8B EF                                     mov     r13,rdi
 000000400137: 48 C7 C7 00 00 00 00                         mov     rdi,0x0
 00000040013E: 48 C7 C6 00 10 00 00                         mov     rsi,0x1000
 000000400145: 48 C7 C2 03 00 00 00                         mov     rdx,0x3
@@ -16,19 +16,19 @@ testEcho1
 000000400161: 48 C7 C0 09 00 00 00                         mov     rax,0x9
 000000400168: 0F 05                                        syscall 
 00000040016A: 48 8B E8                                     mov     rbp,rax
-00000040016D: 4C 8B ED                                     mov     r13,rbp
+00000040016D: 4C 8B FD                                     mov     r15,rbp
 000000400170: 48 C7 C7 00 00 00 00                         mov     rdi,0x0
-000000400177: 49 8B F5                                     mov     rsi,r13
+000000400177: 49 8B F7                                     mov     rsi,r15
 00000040017A: 48 C7 C2 01 00 00 00                         mov     rdx,0x1
 000000400181: 48 C7 C0 00 00 00 00                         mov     rax,0x0
 000000400188: 0F 05                                        syscall 
-00000040018A: 4C 8B F8                                     mov     r15,rax
-00000040018D: 48 C7 C7 01 00 00 00                         mov     rdi,0x1
-000000400194: 49 8B F5                                     mov     rsi,r13
-000000400197: 48 C7 C2 01 00 00 00                         mov     rdx,0x1
-00000040019E: 48 C7 C0 01 00 00 00                         mov     rax,0x1
-0000004001A5: 0F 05                                        syscall 
-0000004001A7: 48 8B E8                                     mov     rbp,rax
+00000040018A: 48 C7 C7 01 00 00 00                         mov     rdi,0x1
+000000400191: 49 8B F7                                     mov     rsi,r15
+000000400194: 48 C7 C2 01 00 00 00                         mov     rdx,0x1
+00000040019B: 48 C7 C0 01 00 00 00                         mov     rax,0x1
+0000004001A2: 0F 05                                        syscall 
+0000004001A4: 48 8B E8                                     mov     rbp,rax
+0000004001A7: 4C 8B F5                                     mov     r14,rbp
 0000004001AA: 48 C7 C7 00 00 00 00                         mov     rdi,0x0
 0000004001B1: 48 C7 C0 03 00 00 00                         mov     rax,0x3
 0000004001B8: 0F 05                                        syscall 

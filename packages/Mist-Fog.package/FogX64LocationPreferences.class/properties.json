@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"acceptableRegisters",
-		"isStackFrameLocationOK" ],
+		"acceptableLocations",
+		"areOtherStackFrameLocationsOK" ],
 	"name" : "FogX64LocationPreferences",
 	"pools" : [
 		 ],

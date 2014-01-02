@@ -1,4 +1,4 @@
-FogX64LoopNode: I implement a loop. I have any number of subnodes (steps) that are executed in order, then I execute a jump back to the first step. I loop infinitely unless one of my descendants is a LoopExitNode referencing my loopLabel. Currently, only a single ExitLoopNode per LoopNode is supported. 
+FogX64LoopNode: I implement a loop. I have any number of child nodes (steps) that are executed in order, then I execute a jump back to the first step. I loop infinitely unless one of my descendants is a LoopExitNode referencing my loopLabel. Currently, only a single ExitLoopNode per LoopNode is supported. 
 
 Instance Variables:
 	loopLabel	<Object> The identity of this object may be used by a LoopExitNode to identify me (the node) 

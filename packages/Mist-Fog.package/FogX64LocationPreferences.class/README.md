@@ -1,11 +1,11 @@
 A FogX64LocationPreferences specifies what temporary locations (registers or memory on stack) are acceptable as generation or consumption locations.
 
 Instance Variables
-	acceptableRegisters:		<IdentitySet of FogX64RegisterLocation>
-	isStackFrameLocationOK:		<Boolean>
+	acceptableLocations:		<Set of FogX64SpecificLocation>
+	areOtherStackFrameLocationsOK:		<Boolean>
 
-acceptableRegisters
-	- Which registers are acceptable
+acceptableLocations
+	- These locations are specifically permitted. Any register locations that are not included here are forbidden.
 
-isStackFrameLocationOK
-	- If false, must be in one of the acceptableRegisters
+areOtherStackFrameLocationsOK
+	- If false, the acceptableLocations are the *only* locations that are acceptable. If true, then stack frame locations that are not listed, including not-yet-allocated stack frame locations, are also acceptable.

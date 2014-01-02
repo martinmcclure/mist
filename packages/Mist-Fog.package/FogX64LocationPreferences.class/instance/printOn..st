@@ -3,8 +3,8 @@ printOn: aStream
 	aStream
 		nextPutAll: 'LocPrefs{';
 		nextPutAll:
-				(isStackFrameLocationOK
-						ifTrue: [ 'Stack ' ]
+				(areOtherStackFrameLocationsOK
+						ifTrue: [ 'Other Stack OK ' ]
 						ifFalse: [ 'No Stack ' ]).
-	acceptableRegisters printOn: aStream.
+	acceptableLocations printOn: aStream.
 	aStream nextPutAll: '}'

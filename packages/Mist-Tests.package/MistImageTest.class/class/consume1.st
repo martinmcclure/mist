@@ -67,4 +67,4 @@ consume1
 							{(Fog intConstant: 0).	"stdin"
 							(Fog intConstant: 16r5402).	"TCSETS"
 							(Fog fetchVariable: 'termiosPtr')}).
-					(Fog intToSmallInt: (Fog fetchFrom: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 0)))})}
+					(Fog intToSmallInt: (Fog fetchByteFrom: (Fog fetchVariable: 'bufPtr') atIndex: (Fog intConstant: 0)))})}

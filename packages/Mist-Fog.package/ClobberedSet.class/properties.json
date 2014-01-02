@@ -10,5 +10,5 @@
 	"name" : "ClobberedSet",
 	"pools" : [
 		 ],
-	"super" : "IdentitySet",
+	"super" : "Set",
 	"type" : "normal" }
