@@ -7,15 +7,10 @@ baseline: spec
 			spec
 				package: 'Mist-Elf';
 				package: 'Mist-Disassembler';
-				package: 'Mist-Fog' with: [ spec requires: #('AsmJit') ];
+				package: 'Mist-Fog';
 				package: 'Mist-Objects' with: [ spec requires: #('Mist-Fog' 'Mist-Elf') ];
-				package: 'Mist-Tests' with: [ spec requires: #('Mist-Objects' 'Mist-Disassembler') ].
+				package: 'Mist-Tests' with: [ spec requires: #('Mist-Objects' 'Mist-Disassembler' 'OSProcess') ].
 			spec
 				group: 'default' with: #('Mist-Elf' 'Mist-Disassembler' 'Mist-Fog' 'Mist-Objects');
 				group: 'Tests' with: #('Mist-Tests').
-			spec
-				project: 'AsmJit'
-				with: [ 
-					spec
-						className: 'BaselineOfAsmJit';
-						repository: 'github://martinmcclure/AsmJit:master/packages' ] ]
+			spec configuration: 'OSProcess' with: [ spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main' ] ]
