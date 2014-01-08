@@ -9,7 +9,8 @@ baseline: spec
 				package: 'Mist-Disassembler';
 				package: 'Mist-Fog';
 				package: 'Mist-Objects' with: [ spec requires: #('Mist-Fog' 'Mist-Elf') ];
-				package: 'Mist-Tests' with: [ spec requires: #('Mist-Objects' 'Mist-Disassembler' 'OSProcess') ].
+				package: 'Mist-Classes' with: [ spec requires: #('Mist-Objects') ];
+				package: 'Mist-Tests' with: [ spec requires: #('Mist-Classes' 'Mist-Disassembler' 'OSProcess') ].
 			spec
 				group: 'default' with: #('Mist-Elf' 'Mist-Disassembler' 'Mist-Fog' 'Mist-Objects');
 				group: 'Tests' with: #('Mist-Tests').
