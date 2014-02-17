@@ -4,5 +4,5 @@ smallIntegerClassSpec
 	classSpec := MistClassSpec new.
 	classSpec
 		name: 'SmallInteger';
-		addMethod: self smallIntegerPlusSpec;
-		addMethod: self addThreeAndFourSpec
+		addInstanceMethod: self smallIntegerPlusSpec;
+		addInstanceMethod: self addThreeAndFourSpec

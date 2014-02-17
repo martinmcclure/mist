@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MartinMcClure 2/7/2014 14:25",
 	"instvars" : [
 		"name",
 		"classSpec",
-		"metaclassSpec" ],
+		"metaclassSpec",
+		"isPrivate" ],
 	"name" : "MistClassSpec",
 	"pools" : [
 		 ],

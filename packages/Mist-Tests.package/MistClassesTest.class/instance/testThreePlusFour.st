@@ -1,7 +1,7 @@
 tests
 testThreePlusFour
 	| moduleSpec module |
-	moduleSpec := self threePlusFourSpec.
+	moduleSpec := self threePlusFourModuleSpec.
 	module := moduleSpec installIn: image.
 	image startupMethod: (module definitionAt: 'SmallInteger') methodAt: #ThreePlusFour.
 	self
