@@ -5,7 +5,7 @@
 		"addLoop:labeled:" : "MartinMcClure 10/6/2012 14:49",
 		"allocateStackTemp" : "MartinMcClure 1/21/2013 16:24",
 		"anyRegisterLocationAcceptableTo:" : "MartinMcClure 12/30/2013 15:47",
-		"compile:" : "MartinMcClure 12/27/2013 18:32",
+		"compile:" : "MartinMcClure 6/15/2014 20:20",
 		"ensureOddNumberOfStackTemps" : "MartinMcClure 12/27/2013 18:31",
 		"existingLocationsDo:" : "MartinMcClure 12/30/2013 12:57",
 		"initialize" : "MartinMcClure 12/30/2013 15:45",

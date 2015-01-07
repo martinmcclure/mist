@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-AsmJit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 6/15/2014 20:16",
+	"instvars" : [
+		 ],
+	"name" : "MistAJx64Assembler",
+	"pools" : [
+		 ],
+	"super" : "AJx64Assembler",
+	"type" : "normal" }

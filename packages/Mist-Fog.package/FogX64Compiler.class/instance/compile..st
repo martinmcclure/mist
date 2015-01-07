@@ -4,7 +4,7 @@ compile: rootNode
 
 	"codeStream := X64CodeStream compiler: self."
 
-	codeStream := AJx64Assembler noStackFrame.
+	codeStream := MistAJx64Assembler noStackFrame.
 	rootNode pass1CompileWith: self siblingClobbered: (ClobberedSet compiler: self).
 	self ensureOddNumberOfStackTemps.
 	rootNode pass2CompileOn: codeStream.

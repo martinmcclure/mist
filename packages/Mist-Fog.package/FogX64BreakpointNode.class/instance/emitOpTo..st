@@ -1,3 +1,3 @@
 x64-compiling-pass2
 emitOpTo: codeStream
-	codeStream breakpoint
+	codeStream int: 3
