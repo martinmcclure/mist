@@ -5,4 +5,5 @@ smallIntegerClassSpec
 	classSpec
 		name: 'SmallInteger';
 		addInstanceMethod: self smallIntegerPlusSpec;
-		addInstanceMethod: self addThreeAndFourSpec
+		addInstanceMethod: self addThreeAndFourSpec.
+	^ classSpec

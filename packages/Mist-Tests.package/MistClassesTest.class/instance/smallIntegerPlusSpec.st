@@ -3,8 +3,10 @@ smallIntegerPlusSpec
 	| spec |
 	spec := MistMethodSpec new.
 	spec
+		name: #+;
 		source:
-			'
-	+
+				'
+	+ aNumber
 	<primitive>
-' , (self class sourceCodeAt: #smallIntegerPlusFog)
+' , self smallIntegerPlusFogSource.
+	^ spec

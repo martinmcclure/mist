@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "MartinMcClure 2/7/2014 14:25",
 	"instvars" : [
-		"name",
 		"classSpec",
 		"metaclassSpec",
 		"isPrivate" ],
 	"name" : "MistClassSpec",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MistSpec",
 	"type" : "normal" }

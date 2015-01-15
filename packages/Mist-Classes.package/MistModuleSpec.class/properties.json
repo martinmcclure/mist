@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"name",
 		"imports",
 		"definitions" ],
 	"name" : "MistModuleSpec",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MistSpec",
 	"type" : "normal" }

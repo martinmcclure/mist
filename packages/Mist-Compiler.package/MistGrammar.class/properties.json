@@ -1,0 +1,16 @@
+{
+	"category" : "Mist-Compiler-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 1/11/2015 18:11",
+	"instvars" : [
+		"primitivePragma",
+		"restOfText",
+		"primitiveMethodBody" ],
+	"name" : "MistGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPSmalltalkGrammar",
+	"type" : "normal" }

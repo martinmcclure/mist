@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 2/7/2014 14:23",
+	"commentStamp" : "MartinMcClure 1/10/2015 12:49",
 	"instvars" : [
-		"source",
-		"isPrivate" ],
-	"name" : "MistMethodSpec",
+		"name" ],
+	"name" : "MistSpec",
 	"pools" : [
 		 ],
-	"super" : "MistSpec",
+	"super" : "Object",
 	"type" : "normal" }

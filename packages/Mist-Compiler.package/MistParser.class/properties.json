@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Compiler-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 1/11/2015 18:44",
+	"instvars" : [
+		 ],
+	"name" : "MistParser",
+	"pools" : [
+		 ],
+	"super" : "MistGrammar",
+	"type" : "normal" }

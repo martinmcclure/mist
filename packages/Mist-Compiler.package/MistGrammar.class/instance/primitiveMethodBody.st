@@ -1,0 +1,3 @@
+grammar
+primitiveMethodBody
+	^ primitivePragma , restOfText
