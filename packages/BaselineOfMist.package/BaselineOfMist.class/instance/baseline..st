@@ -22,4 +22,5 @@ baseline: spec
 					with: [ 
 							spec
 								repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main';
-								requires: #('PetitTests') ] ]
+								requires: #('PetitTests') ];
+				configuration: 'PetitTests' with: [ spec repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main' ] ]
