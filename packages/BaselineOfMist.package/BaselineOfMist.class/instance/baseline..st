@@ -18,9 +18,15 @@ baseline: spec
 				group: 'Tests' with: #('Mist-Tests').
 			spec
 				configuration: 'OSProcess' with: [ spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main' ];
-				configuration: 'PetitSmalltalk'
+				package: 'PetitSmalltalk'
 					with: [ 
 							spec
 								repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main';
-								requires: #('PetitTests') ];
-				configuration: 'PetitTests' with: [ spec repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main' ] ]
+								requires: #('PetitParser') ];
+				project: 'PetitParser'
+					with: [ 
+							spec
+								className: #ConfigurationOfPetitParser;
+								versionString: #development;
+								repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main';
+								loads: #('Tests') ] ]
