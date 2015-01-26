@@ -12,5 +12,5 @@
 	"name" : "MistModule",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MistObject",
 	"type" : "normal" }

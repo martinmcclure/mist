@@ -1,0 +1,15 @@
+{
+	"category" : "Mist-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 1/25/2015 22:31",
+	"instvars" : [
+		"spec",
+		"image" ],
+	"name" : "MistBehaviorCompiler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

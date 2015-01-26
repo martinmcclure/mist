@@ -1,0 +1,18 @@
+{
+	"category" : "Mist-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 1/25/2015 22:47",
+	"instvars" : [
+		"spec",
+		"image",
+		"method",
+		"fogRoot",
+		"machineCode" ],
+	"name" : "MistMethodCompiler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

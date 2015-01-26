@@ -1,0 +1,16 @@
+{
+	"category" : "Mist-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 1/25/2015 19:53",
+	"instvars" : [
+		"spec",
+		"module",
+		"image" ],
+	"name" : "MistModuleCompiler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

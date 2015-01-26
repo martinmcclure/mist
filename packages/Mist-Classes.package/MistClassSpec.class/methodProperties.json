@@ -3,4 +3,7 @@
 		 },
 	"instance" : {
 		"addInstanceMethod:" : "MartinMcClure 2/7/2014 14:28",
-		"initialize" : "MartinMcClure 2/7/2014 14:32" } }
+		"classSpec" : "MartinMcClure 1/25/2015 20:39",
+		"compilerClass" : "MartinMcClure 1/25/2015 20:36",
+		"initialize" : "MartinMcClure 2/7/2014 14:32",
+		"metaclassSpec" : "MartinMcClure 1/25/2015 20:39" } }

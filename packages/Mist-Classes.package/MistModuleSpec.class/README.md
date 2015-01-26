@@ -12,4 +12,4 @@ imports
 	- Specs for modules imported into this module.
 
 name
-	- The name by which code defined in the module's definitions refers to the module.
+	- The name by which code defined in the module's definitions refers to the module. Other modules are likely to use the same name to refer to this module, but are free to use a different name if they need to (for example, because there are two modules written by different parties that have the same internal name).
