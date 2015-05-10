@@ -2,7 +2,6 @@ tests
 testThreePlusFour
 	image startupMethod: (image compileSource: self class sourceThreePlusFour).
 	self
-		runImage: image
-		withInput: ''
+		runImageWithInput: ''
 		expectingOutput: ''
 		expectingExitStatus: 7

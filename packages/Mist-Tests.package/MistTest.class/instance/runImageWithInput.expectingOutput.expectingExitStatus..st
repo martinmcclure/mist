@@ -1,5 +1,5 @@
 running
-runImage: image withInput: providedString expectingOutput: expectedString expectingExitStatus: expectedExitStatus
+runImageWithInput: providedString expectingOutput: expectedString expectingExitStatus: expectedExitStatus
 	| stdin process |
 	stdin := StandardFileStream forceNewFileNamed: testSelector , '.stdin'.
 	stdin

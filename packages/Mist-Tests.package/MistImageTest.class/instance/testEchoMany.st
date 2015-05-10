@@ -10,4 +10,4 @@ testEchoMany
 	'The quick fox jumped over the lazy dog.'.
 	'Multiple
 		lines'}.
-	strings do: [ :s | self runImage: image withInput: s , esc expectingOutput: s , lf ]
+	strings do: [ :s | self runImageWithInput: s , esc expectingOutput: s , lf ]

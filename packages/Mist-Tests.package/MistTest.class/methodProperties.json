@@ -4,8 +4,8 @@
 	"instance" : {
 		"cleanupExecutable" : "MartinMcClure 8/15/2013 14:28",
 		"execute:withStdin:" : "MartinMcClure 9/12/2013 05:51",
-		"runImage:withInput:expectingOutput:" : "MartinMcClure 7/23/2013 13:50",
-		"runImage:withInput:expectingOutput:expectingExitStatus:" : "MartinMcClure 7/23/2013 23:47",
+		"runImageWithInput:expectingOutput:" : "MartinMcClure 5/10/2015 15:14",
+		"runImageWithInput:expectingOutput:expectingExitStatus:" : "MartinMcClure 5/10/2015 15:13",
 		"setUp" : "MartinMcClure 7/28/2013 12:26",
 		"waitForProcess:" : "MartinMcClure 7/22/2013 11:26",
 		"writeImage:toFileNamed:andRunWithStdin:" : "MartinMcClure 7/23/2013 13:34" } }

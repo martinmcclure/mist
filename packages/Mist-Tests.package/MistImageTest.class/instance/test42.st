@@ -2,7 +2,6 @@ tests
 test42
 	image startupMethod: (image compileSource: self class sourceFortyTwo).
 	self
-		runImage: image
-		withInput: ''
+		runImageWithInput: ''
 		expectingOutput: ''
 		expectingExitStatus: 42
