@@ -17,7 +17,7 @@ baseline: spec
 				group: 'default' with: #('Mist-Compiler' 'Mist-Disassembler');
 				group: 'Tests' with: #('Mist-Tests').
 			spec
-				configuration: 'OSProcess' with: [ spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main' ];
+				configuration: 'OSProcess' with: [ spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main' ];
 				package: 'PetitSmalltalk'
 					with: [ 
 							spec
