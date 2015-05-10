@@ -5,7 +5,7 @@
 		"cleanupExecutable" : "MartinMcClure 8/15/2013 14:28",
 		"execute:withStdin:" : "MartinMcClure 9/12/2013 05:51",
 		"runImageWithInput:expectingOutput:" : "MartinMcClure 5/10/2015 15:14",
-		"runImageWithInput:expectingOutput:expectingExitStatus:" : "MartinMcClure 5/10/2015 15:13",
+		"runImageWithInput:expectingOutput:expectingExitStatus:" : "MartinMcClure 5/10/2015 15:23",
 		"setUp" : "MartinMcClure 7/28/2013 12:26",
 		"waitForProcess:" : "MartinMcClure 7/22/2013 11:26",
-		"writeImage:toFileNamed:andRunWithStdin:" : "MartinMcClure 7/23/2013 13:34" } }
+		"writeImageToFileNamed:andRunWithStdin:" : "MartinMcClure 5/10/2015 15:23" } }
