@@ -1,4 +1,4 @@
-private
+public
 write
 	self
 		writeElfHeader;

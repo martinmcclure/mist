@@ -12,7 +12,5 @@
 		"writeElfHeader" : "MartinMcClure 7/21/2013 10:59",
 		"writeIdent" : "MartinMcClure 7/21/2013 10:54",
 		"writeProgramHeaderTable" : "MartinMcClure 7/21/2013 11:05",
-		"writeSegments" : "MartinMcClure 8/16/2010 11:12",
 		"writeString:" : "MartinMcClure 7/21/2013 11:21",
-		"writeToFileNamed:" : "tfel 9/6/2012 15:49",
 		"writeZeros:" : "MartinMcClure 7/21/2013 10:55" } }

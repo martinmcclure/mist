@@ -1,8 +1,5 @@
-ElfFile writes a file in x86_64 ELF format. It is currently limited to a single segment and no sections. Currently, the segment loads at 0x400000 and is 1MiB in length.
+ElfFile writes the header for a file in x86_64 ELF format to a stream, based on the specifications in an MistElfInfo object. It is currently limited to a single segment and no sections. The segment is constructed to load the entire file into memory, then jump to a specified address to start the program.
 
 Instance Variables:
 	elfInfo 		<ElfInfo> To be consulted about specifics of the ELF information being written
-	segments	<SequenceableCollection of: ElfSegment>
-	programHeader	<ProtoObject | PseudoContext>
-	stream	<Stream> File being written
-	entryAddress	<Integer, the address to start execution>
+	stream	<Stream> Stream to which the bytes of the header are written
