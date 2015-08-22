@@ -10,5 +10,5 @@
 	"name" : "X64DisassemblerTests",
 	"pools" : [
 		 ],
-	"super" : "MistTest",
+	"super" : "MistImageTest",
 	"type" : "normal" }

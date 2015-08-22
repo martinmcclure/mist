@@ -1,7 +1,7 @@
 tests
 testIsB
 	| disassembly |
-	disassembly := self compileAndDisassemble: MistImageTest sourceIsB.
+	disassembly := self compileAndDisassemble: MistMinimalImageTest sourceIsB.
 	self
 		assert: disassembly
 		equals:

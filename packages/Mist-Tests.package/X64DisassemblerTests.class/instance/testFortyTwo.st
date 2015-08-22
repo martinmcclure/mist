@@ -1,7 +1,7 @@
 tests
 testFortyTwo
 	| disassembly |
-	disassembly := self compileAndDisassemble: MistImageTest sourceFortyTwo.
+	disassembly := self compileAndDisassemble: MistMinimalImageTest sourceFortyTwo.
 	self
 		assert: disassembly
 		equals:

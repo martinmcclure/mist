@@ -1,7 +1,7 @@
 tests
 testEchoMany
 	| disassembly |
-	disassembly := self compileAndDisassemble: MistImageTest sourceEchoMany.
+	disassembly := self compileAndDisassemble: MistMinimalImageTest sourceEchoMany.
 	self
 		assert: disassembly
 		equals:

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 7/22/2013 11:25",
+	"commentStamp" : "",
 	"instvars" : [
-		"image" ],
-	"name" : "MistImageTest",
+		 ],
+	"name" : "MistMinimalImageTest",
 	"pools" : [
 		 ],
-	"super" : "MistTest",
+	"super" : "MistImageTest",
 	"type" : "normal" }

@@ -10,5 +10,5 @@
 	"name" : "MistClassesTest",
 	"pools" : [
 		 ],
-	"super" : "MistTest",
+	"super" : "MistImageTest",
 	"type" : "normal" }

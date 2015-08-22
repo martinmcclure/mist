@@ -1,7 +1,7 @@
 tests
 testEcho1
 	| disassembly |
-	disassembly := self compileAndDisassemble: MistImageTest sourceEcho1.
+	disassembly := self compileAndDisassemble: MistMinimalImageTest sourceEcho1.
 	self
 		assert: disassembly
 		equals:
