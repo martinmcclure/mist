@@ -12,7 +12,7 @@ test42
 		segmentSize: 16r1000;
 		segmentSizeInFile: 128 + program size.	"One page is plenty for this executable."
 	imageStream := self fileStream.
-	(MistElfWriter for: elfInfo on: imageStream)
+	(MistElf64Writer for: elfInfo on: imageStream)
 		write;
 		write8: 0.
 	imageStream

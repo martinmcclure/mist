@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "Elf64Test",
+	"name" : "Elf32Test",
 	"pools" : [
 		 ],
 	"super" : "ElfTest",

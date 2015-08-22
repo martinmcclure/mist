@@ -1,0 +1,3 @@
+program header table
+programHeaderTableEntrySize
+	^ self class programHeaderTableEntrySize

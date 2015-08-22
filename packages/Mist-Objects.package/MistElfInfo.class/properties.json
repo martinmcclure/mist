@@ -9,7 +9,8 @@
 		"segmentSize",
 		"segmentSizeInFile",
 		"loadAddress",
-		"entryAddress" ],
+		"entryAddress",
+		"bitWidth" ],
 	"name" : "MistElfInfo",
 	"pools" : [
 		 ],

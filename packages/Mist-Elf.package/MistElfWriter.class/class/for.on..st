@@ -1,8 +1,10 @@
 instance creation
 for: elfInfo on: stream
-	| inst |
-	inst := self new.
-	inst
+
+	| instanceClass instance |
+	instanceClass := self withAllSubclasses detect: [ :any | any bitWidth = elfInfo bitWidth ].
+	instance := instanceClass new.
+	instance
 		elfInfo: elfInfo;
 		stream: stream.
-	^ inst
+	^ instance
