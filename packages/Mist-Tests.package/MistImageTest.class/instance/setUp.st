@@ -1,4 +1,4 @@
 support
 setUp
 	super setUp.
-	image := MistImage new
+	image := Mist64Image new

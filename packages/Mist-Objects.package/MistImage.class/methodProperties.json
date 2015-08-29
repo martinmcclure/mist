@@ -4,11 +4,11 @@
 	"instance" : {
 		"compileFog:" : "MartinMcClure 8/23/2015 12:55",
 		"compileSource:" : "MartinMcClure 12/25/2013 11:18",
-		"compilerClass" : "MartinMcClure 8/23/2015 12:56",
 		"freeObjectOfSize:" : "MartinMcClure 7/19/2013 15:07",
 		"initialStackPointerAddress" : "MartinMcClure 12/25/2013 11:25",
 		"initializationMethodCalling:" : "MartinMcClure 12/25/2013 17:36",
 		"initialize" : "MartinMcClure 7/19/2013 15:44",
+		"newCompiler" : "MartinMcClure 8/29/2015 07:46",
 		"startupMethod:" : "MartinMcClure 12/24/2013 22:32",
 		"writeToFileNamed:" : "MartinMcClure 7/21/2013 10:17",
 		"writeToStream:" : "MartinMcClure 7/21/2013 10:33" } }

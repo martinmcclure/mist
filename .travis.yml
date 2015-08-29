@@ -1,7 +1,7 @@
 language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
-env: ST=Pharo-3.0
+env: ST=Pharo-4.0
 #   - ST=Pharo-1.4 
 #   - ST=Squeak-4.3
 

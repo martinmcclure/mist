@@ -1,3 +1,3 @@
 private
-compilerClass
+newCompiler
 	self subclassResponsibility
