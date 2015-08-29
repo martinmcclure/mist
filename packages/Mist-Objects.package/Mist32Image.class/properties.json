@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Mist32Image",
+	"pools" : [
+		 ],
+	"super" : "MistImage",
+	"type" : "normal" }

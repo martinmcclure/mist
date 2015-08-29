@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"children:" : "MartinMcClure 8/28/2015 16:31",
+		"compare:to:" : "MartinMcClure 8/28/2015 16:30",
+		"fetchArgument:" : "MartinMcClure 8/28/2015 16:19",
+		"following:if:then:else:" : "MartinMcClure 8/28/2015 16:48",
+		"intConstant:" : "MartinMcClure 8/28/2015 16:35",
+		"intToSmallInt:" : "MartinMcClure 8/28/2015 16:46",
+		"methodWithArguments:body:" : "MartinMcClure 8/28/2015 17:01" },
+	"instance" : {
+		"addChild:" : "MartinMcClure 8/28/2015 16:33",
+		"children:" : "MartinMcClure 8/28/2015 16:32",
+		"parent:" : "MartinMcClure 8/28/2015 16:34" } }

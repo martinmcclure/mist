@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Tests-LLVM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MistLlvmTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

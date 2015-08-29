@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"compileFog:" : "MartinMcClure 12/24/2013 23:32",
+		"compileFog:" : "MartinMcClure 8/23/2015 12:55",
 		"compileSource:" : "MartinMcClure 12/25/2013 11:18",
+		"compilerClass" : "MartinMcClure 8/23/2015 12:56",
 		"freeObjectOfSize:" : "MartinMcClure 7/19/2013 15:07",
 		"initialStackPointerAddress" : "MartinMcClure 12/25/2013 11:25",
 		"initializationMethodCalling:" : "MartinMcClure 12/25/2013 17:36",

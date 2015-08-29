@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Fog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FogX32Node",
+	"pools" : [
+		 ],
+	"super" : "FogX64Node",
+	"type" : "normal" }

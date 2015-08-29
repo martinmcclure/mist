@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MistMinimalImage32Test",
+	"pools" : [
+		 ],
+	"super" : "MistMinimalImageTest",
+	"type" : "normal" }

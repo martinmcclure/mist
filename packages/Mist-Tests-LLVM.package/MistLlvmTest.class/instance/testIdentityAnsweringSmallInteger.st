@@ -1,0 +1,3 @@
+tests
+testIdentityAnsweringSmallInteger
+	FogLlvm64Compiler new compile: self identityAnsweringSmallInteger 

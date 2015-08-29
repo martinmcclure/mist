@@ -1,0 +1,15 @@
+{
+	"category" : "Mist-Fog-LLVM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"parent" ],
+	"name" : "FogLlvm64Node",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

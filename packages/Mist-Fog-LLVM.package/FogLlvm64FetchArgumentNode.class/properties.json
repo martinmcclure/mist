@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Fog-LLVM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"argumentName" ],
+	"name" : "FogLlvm64FetchArgumentNode",
+	"pools" : [
+		 ],
+	"super" : "FogLlvm64Node",
+	"type" : "normal" }
