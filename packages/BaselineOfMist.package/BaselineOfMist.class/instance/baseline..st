@@ -12,10 +12,12 @@ baseline: spec
 				package: 'Mist-Objects' with: [ spec requires: #('Mist-Fog' 'Mist-Elf') ];
 				package: 'Mist-Classes' with: [ spec requires: #('Mist-Objects' 'Mist-Compiler') ];
 				package: 'Mist-Compiler' with: [ spec requires: #('PetitSmalltalk') ];
-				package: 'Mist-Tests' with: [ spec requires: #('Mist-Classes' 'Mist-Disassembler' 'OSProcess') ].
+				package: 'Mist-Tests' with: [ spec requires: #('Mist-Classes' 'Mist-Disassembler' 'OSProcess') ];
+				package: 'Mist-Fog-LLVM';
+				package: 'Mist-Tests-LLVM' with: [ spec requires: #('Mist-Fog-LLVM') ].
 			spec
-				group: 'default' with: #('Mist-Compiler' 'Mist-Disassembler');
-				group: 'Tests' with: #('Mist-Tests').
+				group: 'default' with: #('Mist-Compiler' 'Mist-Disassembler' 'Mist-Fog-LLVM');
+				group: 'Tests' with: #('Mist-Tests' 'Mist-Tests-LLVM').
 			spec
 				configuration: 'OSProcess' with: [ spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main' ];
 				package: 'PetitSmalltalk'
