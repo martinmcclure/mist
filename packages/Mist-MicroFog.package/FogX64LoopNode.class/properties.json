@@ -1,0 +1,18 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"loopLabel",
+		"loopHeadLabel",
+		"loopTailLabel",
+		"loopExitNode",
+		"siblingClobbered" ],
+	"name" : "FogX64LoopNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64Node",
+	"type" : "normal" }

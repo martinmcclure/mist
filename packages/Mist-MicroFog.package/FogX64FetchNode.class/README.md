@@ -1,0 +1,1 @@
+FogX64FetchNode is the superclass of various node classes that fetch from memory at an address an offset.

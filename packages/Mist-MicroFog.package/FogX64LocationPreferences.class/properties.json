@@ -1,0 +1,15 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"acceptableLocations",
+		"areOtherStackFrameLocationsOK" ],
+	"name" : "FogX64LocationPreferences",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

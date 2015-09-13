@@ -1,0 +1,1 @@
+A FogX64SimpleRootNode is the root of a simple code routine. The primary value this class adds is not expecting to have a parent. There aren't too many of these in Mist -- most roots are Methods. This one is not a subroutine, its really a "main" entry point for the image at startup or equivalent standalone use.

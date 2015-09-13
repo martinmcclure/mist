@@ -1,0 +1,1 @@
+FogX64FetchByteNode fetches a byte (8-bit word) from memory at a computed address plus a fixed offset. Offset is 0-based and in units of bytes.

@@ -1,0 +1,15 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"isReturnedFrom",
+		"registerArguments" ],
+	"name" : "FogX64MethodNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64VariableScopeNode",
+	"type" : "normal" }

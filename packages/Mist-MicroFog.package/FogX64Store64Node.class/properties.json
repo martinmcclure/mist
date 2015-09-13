@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 11/4/2011 10:12",
+	"instvars" : [
+		 ],
+	"name" : "FogX64Store64Node",
+	"pools" : [
+		 ],
+	"super" : "FogX64StoreNode",
+	"type" : "normal" }

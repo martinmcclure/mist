@@ -1,0 +1,16 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Registers" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"byteName",
+		"number" ],
+	"name" : "FogX64RegisterLocation",
+	"pools" : [
+		 ],
+	"super" : "FogX64SpecificLocation",
+	"type" : "normal" }

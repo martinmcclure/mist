@@ -1,0 +1,3 @@
+accessing
+generationLocation
+	^ parent generationLocation

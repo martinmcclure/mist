@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"allRegisters" : "MartinMcClure 11/3/2011 10:24",
+		"createRegisters" : "MartinMcClure 1/1/2013 17:31",
+		"initialize" : "MartinMcClure 11/3/2011 10:27",
+		"r:" : "MartinMcClure 11/3/2011 10:24" },
+	"instance" : {
+		"asOperandFor:" : "MartinMcClure 1/8/2013 20:14",
+		"byteName:" : "MartinMcClure 1/1/2013 17:33",
+		"highNumber" : "MartinMcClure 11/1/2011 03:45",
+		"isIndirectRegister" : "MartinMcClure 11/3/2011 10:10",
+		"isRegister" : "MartinMcClure 11/3/2011 10:30",
+		"isScratchRegister" : "MartinMcClure 12/29/2013 17:39",
+		"lowNumber" : "MartinMcClure 11/1/2011 03:44",
+		"mode" : "MartinMcClure 11/3/2011 10:41",
+		"name" : "MartinMcClure 1/1/2013 18:26",
+		"name64" : "MartinMcClure 1/1/2013 20:08",
+		"name8" : "MartinMcClure 1/1/2013 20:08",
+		"name:" : "MartinMcClure 11/1/2011 03:42",
+		"number" : "MartinMcClure 11/1/2011 03:44",
+		"number:" : "MartinMcClure 11/1/2011 03:44",
+		"printOn:" : "MartinMcClure 11/3/2011 10:10" } }

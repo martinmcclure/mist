@@ -1,0 +1,1 @@
+A FogX64SequenceNode has no action of its own. It executes its children in order, and its result is the result of its last child.

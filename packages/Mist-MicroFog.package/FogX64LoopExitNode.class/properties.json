@@ -1,0 +1,15 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 10/6/2012 14:44",
+	"instvars" : [
+		"loopLabel",
+		"loopNode" ],
+	"name" : "FogX64LoopExitNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64Node",
+	"type" : "normal" }

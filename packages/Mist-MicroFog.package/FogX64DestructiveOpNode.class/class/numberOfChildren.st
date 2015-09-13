@@ -1,0 +1,3 @@
+private
+numberOfChildren 
+	^2

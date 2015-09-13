@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FogX64AndNode",
+	"pools" : [
+		 ],
+	"super" : "FogX64DestructiveOpNode",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"numberOfChildren" : "MartinMcClure 5/26/2011 15:21",
+		"variables:children:" : "MartinMcClure 12/24/2010 17:50" },
+	"instance" : {
+		"acceptableGenerationLocations" : "MartinMcClure 1/1/2014 21:10",
+		"assignDeclaredVariablesAvoiding:" : "MartinMcClure 12/26/2013 22:07",
+		"createDeclaredVariables" : "MartinMcClure 12/25/2010 12:28",
+		"declaredVariables" : "MartinMcClure 12/25/2010 18:55",
+		"emitOpTo:" : "MartinMcClure 12/29/2013 13:53",
+		"initializeChildVariables" : "MartinMcClure 1/1/2014 20:00",
+		"label" : "MartinMcClure 12/26/2013 22:39",
+		"simpleLabel" : "MartinMcClure 12/26/2013 22:39",
+		"variables:" : "MartinMcClure 12/25/2010 10:14" } }

@@ -1,0 +1,18 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		"outputLocationPreferences",
+		"inputsLocationPreferences" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"compiler",
+		"declaredVariables",
+		"children",
+		"parent" ],
+	"name" : "FogX64Node",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

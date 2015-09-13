@@ -1,0 +1,16 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stream",
+		"level",
+		"label" ],
+	"name" : "FogIndentingStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

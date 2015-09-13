@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"compiler" ],
+	"name" : "ClobberedSet",
+	"pools" : [
+		 ],
+	"super" : "Set",
+	"type" : "normal" }

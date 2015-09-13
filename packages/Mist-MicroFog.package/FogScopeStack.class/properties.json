@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-MicroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stack" ],
+	"name" : "FogScopeStack",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
