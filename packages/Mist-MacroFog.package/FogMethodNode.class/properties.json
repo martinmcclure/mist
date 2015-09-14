@@ -8,7 +8,7 @@
 	"instvars" : [
 		"selectorParts",
 		"parameters",
-		"temporaryDeclarations" ],
+		"methodBody" ],
 	"name" : "FogMethodNode",
 	"pools" : [
 		 ],

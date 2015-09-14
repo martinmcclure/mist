@@ -1,0 +1,3 @@
+grammar
+impliedReturnSelf
+	^ nil asParser

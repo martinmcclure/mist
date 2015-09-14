@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"temporaryVariables",
-		"methodBody" ],
-	"name" : "FogTempVarDeclarationsNode",
+		"variableNames",
+		"childNode" ],
+	"name" : "FogTempVarScopeNode",
 	"pools" : [
 		 ],
 	"super" : "FogMacroNode",

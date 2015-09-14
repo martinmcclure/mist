@@ -1,0 +1,3 @@
+grammar
+statements
+	^ statement star

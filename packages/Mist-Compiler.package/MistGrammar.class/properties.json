@@ -8,7 +8,9 @@
 	"instvars" : [
 		"primitivePragma",
 		"restOfText",
-		"primitiveMethodBody" ],
+		"primitiveMethodBody",
+		"impliedReturnSelf",
+		"statement" ],
 	"name" : "MistGrammar",
 	"pools" : [
 		 ],
