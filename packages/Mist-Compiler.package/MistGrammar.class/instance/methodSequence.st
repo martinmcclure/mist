@@ -1,3 +1,3 @@
 grammar
 methodSequence
-	^ super methodSequence	", (return / impliedReturnSelf)"
+	^ super methodSequence , (return / impliedReturnSelf)

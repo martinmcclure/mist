@@ -1,10 +1,10 @@
 {
 	"class" : {
-		 },
+		"allowUnderscoreAssignment" : "MartinMcClure 9/14/2015 22:34" },
 	"instance" : {
 		"impliedReturnSelf" : "MartinMcClure 9/13/2015 21:29",
 		"method" : "MartinMcClure 1/12/2015 22:17",
-		"methodSequence" : "MartinMcClure 9/13/2015 22:00",
+		"methodSequence" : "MartinMcClure 9/14/2015 21:41",
 		"primitiveMethodBody" : "MartinMcClure 1/12/2015 22:17",
 		"primitivePragma" : "MartinMcClure 1/11/2015 23:49",
 		"restOfText" : "MartinMcClure 1/11/2015 23:55",

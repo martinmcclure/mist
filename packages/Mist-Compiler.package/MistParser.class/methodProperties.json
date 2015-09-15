@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"identifierToken" : "MartinMcClure 9/14/2015 22:40",
+		"impliedReturnSelf" : "MartinMcClure 9/14/2015 22:05",
+		"keywordToken" : "MartinMcClure 9/14/2015 22:48",
 		"method" : "MartinMcClure 9/13/2015 11:47",
-		"methodDeclaration" : "MartinMcClure 9/13/2015 13:29",
-		"methodSequence" : "MartinMcClure 9/13/2015 22:01",
-		"temporaries" : "MartinMcClure 9/13/2015 20:28" } }
+		"methodDeclaration" : "MartinMcClure 9/14/2015 22:43",
+		"methodSequence" : "MartinMcClure 9/14/2015 21:57",
+		"temporaries" : "MartinMcClure 9/14/2015 22:44" } }
