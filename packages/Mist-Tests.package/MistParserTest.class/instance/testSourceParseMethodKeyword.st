@@ -9,6 +9,8 @@ foo: aFoo bar: aBar
 	"A test method with a keyword selector and just about everything else except blocks.
 	Assumes instvars inst1 and inst2 exist in the context, and other variable AClass exists."
 	| temp1 temp2 |
+	3 foo bar.
+	aBar size + aFoo printOn: inst1.
 	temp1 := temp2 := inst1 := aBar ceaseToExist.
 	temp1 := AClass new: 32.
 	temp2 := ''stream literal''.

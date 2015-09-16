@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectorParts",
 		"parameters",
-		"methodBody" ],
+		"methodBody",
+		"selector" ],
 	"name" : "FogMethodNode",
 	"pools" : [
 		 ],

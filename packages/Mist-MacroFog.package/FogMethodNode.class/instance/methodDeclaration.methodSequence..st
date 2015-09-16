@@ -1,5 +1,5 @@
 initialization
 methodDeclaration: methodDeclaration methodSequence: methodSequence
-	selectorParts := methodDeclaration first.
+	selector := methodDeclaration first inject: '' into: [ :composite :nextPart | composite , nextPart ].
 	parameters := methodDeclaration last.
 	methodBody := methodSequence

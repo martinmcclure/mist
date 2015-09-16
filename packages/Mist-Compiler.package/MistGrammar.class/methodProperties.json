@@ -2,6 +2,10 @@
 	"class" : {
 		"allowUnderscoreAssignment" : "MartinMcClure 9/14/2015 22:34" },
 	"instance" : {
+		"assignmentExpression" : "MartinMcClure 9/15/2015 21:10",
+		"binaryExpression" : "MartinMcClure 9/15/2015 22:35",
+		"binaryMessage" : "MartinMcClure 9/15/2015 22:36",
+		"expression" : "MartinMcClure 9/15/2015 21:10",
 		"impliedReturnSelf" : "MartinMcClure 9/13/2015 21:29",
 		"method" : "MartinMcClure 1/12/2015 22:17",
 		"methodSequence" : "MartinMcClure 9/14/2015 21:41",
@@ -9,4 +13,5 @@
 		"primitivePragma" : "MartinMcClure 1/11/2015 23:49",
 		"restOfText" : "MartinMcClure 1/11/2015 23:55",
 		"statement" : "MartinMcClure 9/13/2015 21:32",
-		"statements" : "MartinMcClure 9/13/2015 21:30" } }
+		"statements" : "MartinMcClure 9/13/2015 21:30",
+		"unaryExpression" : "MartinMcClure 9/15/2015 23:33" } }

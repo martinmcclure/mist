@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"variableNames",
-		"childNode" ],
+		"childNode",
+		"variables" ],
 	"name" : "FogTempVarScopeNode",
 	"pools" : [
 		 ],

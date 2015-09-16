@@ -10,7 +10,8 @@
 		"restOfText",
 		"primitiveMethodBody",
 		"impliedReturnSelf",
-		"statement" ],
+		"statement",
+		"assignmentExpression" ],
 	"name" : "MistGrammar",
 	"pools" : [
 		 ],

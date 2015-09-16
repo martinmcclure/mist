@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"receiver",
+		"selector",
+		"arguments" ],
 	"name" : "FogMessageSendNode",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 initialization
 temporaries: temporaries statements: statements
-	variableNames := temporaries.
+	variables := temporaries.
 	childNode := FogSequenceNode with: statements
