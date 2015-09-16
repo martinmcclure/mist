@@ -1,3 +1,0 @@
-accessing
-allRegisters
-	^ Registers values

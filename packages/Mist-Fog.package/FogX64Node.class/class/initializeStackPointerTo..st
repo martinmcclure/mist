@@ -1,3 +1,0 @@
-portable-instance creation
-initializeStackPointerTo: addressInteger
-	^ FogX64InitializeStackPointerNode new address: addressInteger

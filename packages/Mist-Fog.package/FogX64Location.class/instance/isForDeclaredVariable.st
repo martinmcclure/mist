@@ -1,3 +1,0 @@
-testing
-isForDeclaredVariable
-	^ false

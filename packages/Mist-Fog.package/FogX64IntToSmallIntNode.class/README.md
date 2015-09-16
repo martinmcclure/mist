@@ -1,1 +1,0 @@
-A FogX64IntToSmallIntNode has one child, whose int64 result is converted to a SmallInteger. No check is made for overflow, so if the int64 is out of the SmallInteger range, the result will be incorrect.
