@@ -1,3 +1,3 @@
 grammar
 binaryExpression
-	^ unaryExpression , binaryMessage optional
+	^ binaryMessageSend memoized / unaryExpression

@@ -1,3 +1,3 @@
 grammar
 unaryExpression
-	^ ((unaryExpression , unaryMessage) / primary) memoized
+	^ unaryMessageSend memoized / primary

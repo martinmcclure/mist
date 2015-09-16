@@ -4,6 +4,7 @@
 	"instance" : {
 		"assignment" : "MartinMcClure 9/15/2015 21:18",
 		"assignmentExpression" : "MartinMcClure 9/15/2015 21:19",
+		"binaryMessageSend" : "MartinMcClure 9/16/2015 08:23",
 		"cascadeExpression" : "MartinMcClure 9/15/2015 21:47",
 		"identifierToken" : "MartinMcClure 9/14/2015 22:40",
 		"impliedReturnSelf" : "MartinMcClure 9/14/2015 22:05",
@@ -13,4 +14,6 @@
 		"methodDeclaration" : "MartinMcClure 9/14/2015 22:43",
 		"methodSequence" : "MartinMcClure 9/14/2015 21:57",
 		"temporaries" : "MartinMcClure 9/14/2015 22:44",
+		"unaryMessageSend" : "MartinMcClure 9/16/2015 07:34",
+		"unaryToken" : "MartinMcClure 9/16/2015 07:39",
 		"variable" : "MartinMcClure 9/15/2015 21:22" } }
