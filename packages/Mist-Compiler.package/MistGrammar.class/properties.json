@@ -11,7 +11,9 @@
 		"primitiveMethodBody",
 		"impliedReturnSelf",
 		"statement",
-		"assignmentExpression" ],
+		"assignmentExpression",
+		"stringBody",
+		"doubledQuote" ],
 	"name" : "MistGrammar",
 	"pools" : [
 		 ],

@@ -4,6 +4,7 @@
 	"instance" : {
 		"assignmentExpression" : "MartinMcClure 9/15/2015 21:10",
 		"binaryMessage" : "MartinMcClure 9/16/2015 21:45",
+		"doubledQuote" : "MartinMcClure 9/17/2015 08:57",
 		"expression" : "MartinMcClure 9/15/2015 21:10",
 		"impliedReturnSelf" : "MartinMcClure 9/13/2015 21:29",
 		"method" : "MartinMcClure 1/12/2015 22:17",
@@ -13,4 +14,6 @@
 		"restOfText" : "MartinMcClure 1/11/2015 23:55",
 		"statement" : "MartinMcClure 9/13/2015 21:32",
 		"statements" : "MartinMcClure 9/13/2015 21:30",
+		"string" : "MartinMcClure 9/17/2015 09:02",
+		"stringBody" : "MartinMcClure 9/17/2015 08:57",
 		"unaryMessage" : "MartinMcClure 9/16/2015 21:44" } }
