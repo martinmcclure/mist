@@ -1,3 +1,0 @@
-grammar
-unaryMessageSend
-	^ unaryExpression , unaryToken

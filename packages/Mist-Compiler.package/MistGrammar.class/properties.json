@@ -11,9 +11,7 @@
 		"primitiveMethodBody",
 		"impliedReturnSelf",
 		"statement",
-		"assignmentExpression",
-		"unaryMessageSend",
-		"binaryMessageSend" ],
+		"assignmentExpression" ],
 	"name" : "MistGrammar",
 	"pools" : [
 		 ],
