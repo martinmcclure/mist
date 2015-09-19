@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"arrayLiteral" : "MartinMcClure 9/18/2015 14:06",
 		"assignment" : "MartinMcClure 9/15/2015 21:18",
 		"assignmentExpression" : "MartinMcClure 9/15/2015 21:19",
 		"binaryExpression" : "MartinMcClure 9/16/2015 21:38",
@@ -13,7 +14,7 @@
 		"impliedReturnSelf" : "MartinMcClure 9/14/2015 22:05",
 		"keywordExpression" : "MartinMcClure 9/15/2015 22:03",
 		"keywordToken" : "MartinMcClure 9/14/2015 22:48",
-		"literal" : "MartinMcClure 9/16/2015 22:21",
+		"literalNode" : "MartinMcClure 9/18/2015 13:57",
 		"method" : "MartinMcClure 9/13/2015 11:47",
 		"methodDeclaration" : "MartinMcClure 9/14/2015 22:43",
 		"methodSequence" : "MartinMcClure 9/14/2015 21:57",
