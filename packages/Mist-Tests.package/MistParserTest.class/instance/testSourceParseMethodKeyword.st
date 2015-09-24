@@ -1,4 +1,4 @@
-as yet unclassified
+method tests
 testSourceParseMethodKeyword
 	| parser result |
 	parser := MistParser new.

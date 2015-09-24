@@ -2,4 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testSourceParseMethodKeyword" : "MartinMcClure 9/15/2015 23:35" } }
+		"parseString:forLiteralResult:" : "MartinMcClure 9/23/2015 23:42",
+		"testFloatLiteral" : "MartinMcClure 9/23/2015 23:45",
+		"testFloatLiteral2" : "MartinMcClure 9/23/2015 23:45",
+		"testIntegerLiteral" : "MartinMcClure 9/23/2015 23:42",
+		"testIntegerLiteral2" : "MartinMcClure 9/23/2015 23:43",
+		"testIntegerLiteral3" : "MartinMcClure 9/23/2015 23:44",
+		"testSourceParseMethodKeyword" : "MartinMcClure 9/15/2015 23:35",
+		"testStringLiteral" : "MartinMcClure 9/23/2015 23:46",
+		"testStringLiteral2" : "MartinMcClure 9/23/2015 23:47" } }
