@@ -14,7 +14,8 @@
 		"assignmentExpression",
 		"stringBody",
 		"doubledQuote",
-		"literalNode" ],
+		"literalNode",
+		"symbolValue" ],
 	"name" : "MistGrammar",
 	"pools" : [
 		 ],

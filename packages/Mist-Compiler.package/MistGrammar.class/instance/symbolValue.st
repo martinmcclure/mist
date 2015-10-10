@@ -1,0 +1,3 @@
+grammar
+symbolValue
+	^ self symbol

@@ -1,3 +1,3 @@
 grammar
 symbolLiteral
-	^ $# asParser , symbol smalltalkToken
+	^ $# asParser , symbolValue smalltalkToken

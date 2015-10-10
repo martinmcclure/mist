@@ -3,6 +3,9 @@
 		 },
 	"instance" : {
 		"parseString:forLiteralResult:" : "MartinMcClure 9/23/2015 23:42",
+		"testByteLiteral" : "MartinMcClure 9/26/2015 11:51",
+		"testByteLiteralEmpty" : "MartinMcClure 9/26/2015 11:51",
+		"testCharLiteral" : "MartinMcClure 9/26/2015 11:49",
 		"testFloatLiteral" : "MartinMcClure 9/23/2015 23:45",
 		"testFloatLiteral2" : "MartinMcClure 9/23/2015 23:45",
 		"testIntegerLiteral" : "MartinMcClure 9/23/2015 23:42",
@@ -10,4 +13,9 @@
 		"testIntegerLiteral3" : "MartinMcClure 9/23/2015 23:44",
 		"testSourceParseMethodKeyword" : "MartinMcClure 9/15/2015 23:35",
 		"testStringLiteral" : "MartinMcClure 9/23/2015 23:46",
-		"testStringLiteral2" : "MartinMcClure 9/23/2015 23:47" } }
+		"testStringLiteral2" : "MartinMcClure 9/23/2015 23:47",
+		"testSymbolLiteralBinary" : "MartinMcClure 9/26/2015 11:53",
+		"testSymbolLiteralMultiword1" : "MartinMcClure 9/26/2015 11:54",
+		"testSymbolLiteralMultiword2" : "MartinMcClure 9/26/2015 11:55",
+		"testSymbolLiteralString" : "MartinMcClure 9/26/2015 11:56",
+		"testSymbolLiteralUnary" : "MartinMcClure 9/26/2015 11:52" } }
