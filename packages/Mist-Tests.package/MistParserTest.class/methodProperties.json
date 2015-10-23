@@ -6,11 +6,13 @@
 		"testByteLiteral" : "MartinMcClure 9/26/2015 11:51",
 		"testByteLiteralEmpty" : "MartinMcClure 9/26/2015 11:51",
 		"testCharLiteral" : "MartinMcClure 9/26/2015 11:49",
+		"testFalseLiteral" : "MartinMcClure 10/23/2015 14:31",
 		"testFloatLiteral" : "MartinMcClure 9/23/2015 23:45",
 		"testFloatLiteral2" : "MartinMcClure 9/23/2015 23:45",
 		"testIntegerLiteral" : "MartinMcClure 9/23/2015 23:42",
 		"testIntegerLiteral2" : "MartinMcClure 9/23/2015 23:43",
 		"testIntegerLiteral3" : "MartinMcClure 9/23/2015 23:44",
+		"testNilLiteral" : "MartinMcClure 10/23/2015 14:31",
 		"testSourceParseMethodKeyword" : "MartinMcClure 9/15/2015 23:35",
 		"testStringLiteral" : "MartinMcClure 9/23/2015 23:46",
 		"testStringLiteral2" : "MartinMcClure 9/23/2015 23:47",
@@ -18,4 +20,5 @@
 		"testSymbolLiteralMultiword1" : "MartinMcClure 9/26/2015 11:54",
 		"testSymbolLiteralMultiword2" : "MartinMcClure 9/26/2015 11:55",
 		"testSymbolLiteralString" : "MartinMcClure 9/26/2015 11:56",
-		"testSymbolLiteralUnary" : "MartinMcClure 9/26/2015 11:52" } }
+		"testSymbolLiteralUnary" : "MartinMcClure 9/26/2015 11:52",
+		"testTrueLiteral" : "MartinMcClure 10/23/2015 14:31" } }
