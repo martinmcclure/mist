@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"parse:" : "MartinMcClure 10/25/2015 18:12" },
 	"instance" : {
 		"arrayLiteral" : "MartinMcClure 9/18/2015 14:06",
 		"assignment" : "MartinMcClure 9/15/2015 21:18",
@@ -24,10 +24,11 @@
 		"multiword" : "MartinMcClure 10/23/2015 14:20",
 		"nilLiteral" : "MartinMcClure 10/23/2015 14:35",
 		"numberLiteral" : "MartinMcClure 9/16/2015 22:22",
+		"return" : "MartinMcClure 10/25/2015 19:23",
 		"string" : "MartinMcClure 9/17/2015 08:53",
 		"stringLiteral" : "MartinMcClure 9/17/2015 09:05",
 		"symbolLiteral" : "MartinMcClure 10/23/2015 13:46",
-		"temporaries" : "MartinMcClure 9/14/2015 22:44",
+		"temporaries" : "MartinMcClure 10/25/2015 19:17",
 		"trueLiteral" : "MartinMcClure 10/23/2015 14:37",
 		"unary" : "MartinMcClure 10/23/2015 13:59",
 		"unaryExpression" : "MartinMcClure 9/16/2015 21:32",

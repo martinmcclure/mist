@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"variableName" ],
+		"variableName",
+		"variable" ],
 	"name" : "FogVariableReferenceNode",
 	"pools" : [
 		 ],
