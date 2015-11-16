@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 9/10/2012 07:32",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "X64DisassemblerRPlusOperand",
+	"name" : "X64DisassemblerRaxOperand",
 	"pools" : [
 		 ],
 	"super" : "X64DisassemblerOpcodeImpliedRegisterOperand",
