@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"initialize" : "MartinMcClure 11/19/2015 16:14",
+		"singleton" : "MartinMcClure 11/19/2015 16:15",
+		"withEnclosingScope:" : "MartinMcClure 11/19/2015 17:59" },
+	"instance" : {
+		"bind:" : "MartinMcClure 11/19/2015 16:46",
+		"bindingOrNilFor:" : "MartinMcClure 11/19/2015 17:38",
+		"initialize" : "MartinMcClure 11/19/2015 16:44",
+		"variableClass" : "MartinMcClure 11/19/2015 16:20" } }

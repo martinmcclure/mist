@@ -1,0 +1,15 @@
+{
+	"category" : "Mist-Compiler-Scopes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinMcClure 11/19/2015 17:47",
+	"instvars" : [
+		"bindings",
+		"enclosingScope" ],
+	"name" : "MistNameScope",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

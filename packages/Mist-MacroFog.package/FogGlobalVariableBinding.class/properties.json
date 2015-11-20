@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-MacroFog-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FogGlobalVariableBinding",
+	"pools" : [
+		 ],
+	"super" : "FogVariableBinding",
+	"type" : "normal" }

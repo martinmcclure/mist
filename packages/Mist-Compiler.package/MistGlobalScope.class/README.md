@@ -1,0 +1,1 @@
+Handles bindings of globally accessible names (which are only nil, true, and false). Immutable, new bindings cannot be added.
