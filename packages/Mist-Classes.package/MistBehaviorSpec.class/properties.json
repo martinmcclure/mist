@@ -4,8 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 2/7/2014 13:52",
+	"commentStamp" : "MartinMcClure 2/5/2016 15:38",
 	"instvars" : [
+		"classSpec",
 		"composition",
 		"instvars",
 		"methods" ],

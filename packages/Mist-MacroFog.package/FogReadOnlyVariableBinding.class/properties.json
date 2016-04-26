@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "FogGlobalVariableBinding",
+	"name" : "FogReadOnlyVariableBinding",
 	"pools" : [
 		 ],
-	"super" : "FogReadOnlyVariableBinding",
+	"super" : "FogVariableBinding",
 	"type" : "normal" }

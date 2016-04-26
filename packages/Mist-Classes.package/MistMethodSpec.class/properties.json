@@ -4,8 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 2/7/2014 14:23",
+	"commentStamp" : "MartinMcClure 2/5/2016 15:37",
 	"instvars" : [
+		"behaviorSpec",
 		"source",
 		"isPrivate" ],
 	"name" : "MistMethodSpec",

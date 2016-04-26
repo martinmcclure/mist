@@ -10,5 +10,5 @@
 	"name" : "FogTemporaryVariableBinding",
 	"pools" : [
 		 ],
-	"super" : "FogVariableBinding",
+	"super" : "FogAssignableVariableBinding",
 	"type" : "normal" }

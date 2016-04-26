@@ -10,5 +10,5 @@
 	"name" : "FogFormalParameterBinding",
 	"pools" : [
 		 ],
-	"super" : "FogVariableBinding",
+	"super" : "FogReadOnlyVariableBinding",
 	"type" : "normal" }

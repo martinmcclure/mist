@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 2/7/2014 14:25",
+	"commentStamp" : "MartinMcClure 2/5/2016 15:34",
 	"instvars" : [
-		"classSpec",
+		"moduleSpec",
 		"metaclassSpec",
 		"isPrivate" ],
 	"name" : "MistClassSpec",

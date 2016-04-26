@@ -4,6 +4,7 @@ Instance Variables
 	classSpec:		<MistBehaviorSpec>
 	isPrivate:		<Boolean>
 	metaclassSpec:		<MistBehaviorSpec>
+	moduleSpec: 	<MistModuleSpec>
 	name:		<Symbol>
 
 classSpec
@@ -14,6 +15,9 @@ isPrivate
 
 metaclassSpec
 	- Specifies the state and behavior of the class itself.
+	
+moduleSpec
+	-Specifies the module that the class is to be installed into.
 
 name
 	- The name by which the class will be known within its module.
