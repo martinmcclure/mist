@@ -57,10 +57,10 @@ testIsB
 000000400333: 0F 05                                        syscall 
 000000400335: 49 8B DC                                     mov     rbx,r12
 000000400338: 48 C7 C0 00 00 00 00                         mov     rax,0x0
-00000040033F: 4D 33 F6                                     xor     r14,r14
-000000400342: 44 8A 34 03                                  mov     r14b,[rbx+rax*1]
+00000040033F: 48 33 ED                                     xor     rbp,rbp
+000000400342: 40 8A 2C 03                                  mov     bpl,[rbx+rax*1]
 000000400346: 48 C7 C0 42 00 00 00                         mov     rax,0x42
-00000040034D: 4C 3B F0                                     cmp     r14,rax
+00000040034D: 48 3B E8                                     cmp     rbp,rax
 000000400350: 75 17                                        jnz     0x400369
 000000400352: 49 8B EC                                     mov     rbp,r12
 000000400355: 48 C7 C3 01 00 00 00                         mov     rbx,0x1

@@ -3,10 +3,10 @@
 		 },
 	"instance" : {
 		"compileAndDisassemble:" : "MartinMcClure 12/25/2013 11:20",
-		"testConsume1" : "MartinMcClure 11/16/2015 01:05",
+		"testConsume1" : "MartinMcClure 4/27/2016 13:05",
 		"testEcho1" : "MartinMcClure 11/16/2015 01:08",
-		"testEchoMany" : "MartinMcClure 11/16/2015 01:01",
+		"testEchoMany" : "MartinMcClure 4/27/2016 13:10",
 		"testFortyTwo" : "MartinMcClure 11/16/2015 01:10",
-		"testIsB" : "MartinMcClure 11/16/2015 01:16",
+		"testIsB" : "MartinMcClure 4/27/2016 13:12",
 		"testPrint7" : "MartinMcClure 11/16/2015 01:19",
 		"testThreePlusFour" : "MartinMcClure 11/16/2015 01:36" } }

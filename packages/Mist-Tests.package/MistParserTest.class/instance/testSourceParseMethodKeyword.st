@@ -18,5 +18,5 @@ foo: aFoo bar: aBar
 	inst2 := inst1 fnord: #( #[ 65 66 67 ] #someSymbol nil true false ).
 	aFoo + (aBar resumeExistenceWith: 12 with: 3.0 with: 16r6e42).
 	"Implied return self."
-	'.	"Make this thing fail for now for debugging."
-	self assert: result equals: nil
+	'.	
+	self assert: result printString  equals: 'a FogMethodNode'

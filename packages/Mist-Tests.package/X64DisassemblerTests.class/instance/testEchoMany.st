@@ -37,8 +37,8 @@ testEchoMany
 0000004002CC: 49 8B D5                                     mov     rdx,r13
 0000004002CF: 48 C7 C0 10 00 00 00                         mov     rax,0x10
 0000004002D6: 0F 05                                        syscall 
-0000004002D8: 4D 8B FC                                     mov     r15,r12
-0000004002DB: 48 C7 C5 00 00 00 00                         mov     rbp,0x0
+0000004002D8: 4D 8B F4                                     mov     r14,r12
+0000004002DB: 49 C7 C7 00 00 00 00                         mov     r15,0x0
 0000004002E2: 48 C7 C7 00 00 00 00                         mov     rdi,0x0
 0000004002E9: 49 8B F4                                     mov     rsi,r12
 0000004002EC: 48 C7 C2 01 00 00 00                         mov     rdx,0x1
@@ -46,10 +46,10 @@ testEchoMany
 0000004002FA: 0F 05                                        syscall 
 0000004002FC: 49 8B DC                                     mov     rbx,r12
 0000004002FF: 48 C7 C0 00 00 00 00                         mov     rax,0x0
-000000400306: 4D 33 F6                                     xor     r14,r14
-000000400309: 44 8A 34 03                                  mov     r14b,[rbx+rax*1]
+000000400306: 48 33 ED                                     xor     rbp,rbp
+000000400309: 40 8A 2C 03                                  mov     bpl,[rbx+rax*1]
 00000040030D: 48 C7 C0 1B 00 00 00                         mov     rax,0x1B
-000000400314: 4C 3B F0                                     cmp     r14,rax
+000000400314: 48 3B E8                                     cmp     rbp,rax
 000000400317: 75 0B                                        jnz     0x400324
 000000400319: 48 C7 C0 0A 00 00 00                         mov     rax,0xA
 000000400320: EB 1E                                        jmp     0x400340
@@ -61,7 +61,7 @@ testEchoMany
 00000040033C: 0F 05                                        syscall 
 00000040033E: EB A2                                        jmp     0x4002E2
 000000400340: 48 8B D8                                     mov     rbx,rax
-000000400343: 41 88 1C 2F                                  mov     [r15+rbp*1],bl
+000000400343: 43 88 1C 3E                                  mov     [r14+r15*1],bl
 000000400347: 48 C7 C7 01 00 00 00                         mov     rdi,0x1
 00000040034E: 49 8B F4                                     mov     rsi,r12
 000000400351: 48 C7 C2 01 00 00 00                         mov     rdx,0x1
