@@ -1,3 +1,3 @@
 grammar
 symbolLiteral
-	^ $# asParser , symbolValue smalltalkToken
+	^ $# asParser , symbol , PPSmalltalkWhitespaceParser new

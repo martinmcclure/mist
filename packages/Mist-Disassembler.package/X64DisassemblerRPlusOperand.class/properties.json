@@ -10,5 +10,5 @@
 	"name" : "X64DisassemblerRPlusOperand",
 	"pools" : [
 		 ],
-	"super" : "X64DisassemblerRegisterOperand",
+	"super" : "X64DisassemblerOpcodeImpliedRegisterOperand",
 	"type" : "normal" }

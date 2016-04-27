@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-MacroFog-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FogFormalParameterBinding",
+	"pools" : [
+		 ],
+	"super" : "FogReadOnlyVariableBinding",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Compiler-Scopes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MistTemporaryScope",
+	"pools" : [
+		 ],
+	"super" : "MistNameScope",
+	"type" : "normal" }

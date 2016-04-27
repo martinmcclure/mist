@@ -4,11 +4,11 @@
 	"instance" : {
 		"addLoop:labeled:" : "MartinMcClure 10/6/2012 14:49",
 		"allocateStackTemp" : "MartinMcClure 1/21/2013 16:24",
-		"anyRegisterLocationAcceptableTo:" : "MartinMcClure 12/30/2013 15:47",
+		"anyRegisterLocationAcceptableTo:" : "MartinMcClure 11/15/2015 21:08",
 		"compile:" : "MartinMcClure 6/15/2014 20:20",
 		"ensureOddNumberOfStackTemps" : "MartinMcClure 12/27/2013 18:31",
 		"existingLocationsDo:" : "MartinMcClure 12/30/2013 12:57",
-		"initialize" : "MartinMcClure 12/30/2013 15:45",
+		"initialize" : "MartinMcClure 11/15/2015 21:12",
 		"loopLabeled:" : "MartinMcClure 10/6/2012 14:59",
 		"numberOfStackTemps" : "MartinMcClure 12/27/2013 20:22",
 		"popScope" : "MartinMcClure 12/25/2010 19:10",

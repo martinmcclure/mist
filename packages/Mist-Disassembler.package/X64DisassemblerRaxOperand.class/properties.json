@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Disassembler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "X64DisassemblerRaxOperand",
+	"pools" : [
+		 ],
+	"super" : "X64DisassemblerOpcodeImpliedRegisterOperand",
+	"type" : "normal" }

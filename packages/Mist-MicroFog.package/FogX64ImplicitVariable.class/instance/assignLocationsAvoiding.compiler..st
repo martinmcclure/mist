@@ -40,8 +40,7 @@ assignLocationsAvoiding: siblingClobbered compiler: compiler
 									generationLocation := compiler anyRegisterLocationAcceptableTo: ca ]
 								ifTrue: [ 
 									"They'll have to be all three different. Since there can always be another stack location created that will be 
-									an acceptable resting location, we can safely assume that the others can be registers. And since it won't be
-									a resting location, we're free to consider the scratch registers."
+									an acceptable resting location, we can safely assume that the others can be registers."
 									generationLocation := compiler anyRegisterLocationAcceptableTo: ca.
 									restingLocation := compiler restingLocationAvoiding: siblingClobbered.
 									consumptionLocation := compiler anyRegisterLocationAcceptableTo: pa ] ] ].

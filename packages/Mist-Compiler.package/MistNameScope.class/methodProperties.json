@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"withEnclosingScope:" : "MartinMcClure 11/19/2015 18:00" },
+	"instance" : {
+		"bind:" : "MartinMcClure 11/19/2015 18:10",
+		"bindingFor:" : "MartinMcClure 11/19/2015 17:42",
+		"bindingOrNilFor:" : "MartinMcClure 11/19/2015 18:11",
+		"enclosingScope" : "MartinMcClure 11/19/2015 18:00",
+		"enclosingScope:" : "MartinMcClure 11/19/2015 17:59",
+		"initialize" : "MartinMcClure 11/19/2015 16:18",
+		"variableClass" : "MartinMcClure 11/19/2015 16:20" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Compiler-Scopes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"singleton" ],
+	"commentStamp" : "MartinMcClure 11/19/2015 16:52",
+	"instvars" : [
+		"isMutable" ],
+	"name" : "MistGlobalScope",
+	"pools" : [
+		 ],
+	"super" : "MistNameScope",
+	"type" : "normal" }
