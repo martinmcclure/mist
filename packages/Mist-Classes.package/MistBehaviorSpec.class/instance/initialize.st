@@ -1,3 +1,4 @@
 initailize-release
 initialize
-	methods := Set new
+	super initialize.
+	methods := Dictionary new

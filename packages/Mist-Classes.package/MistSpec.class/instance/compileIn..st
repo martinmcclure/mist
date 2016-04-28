@@ -1,3 +1,4 @@
 compiling
-compileIn: image
-	self compilerClass new compile: self in: image
+compileIn: anImage
+	compiledForm := self compilerClass new compile: self in: anImage.
+	isCompiled := true

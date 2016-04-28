@@ -4,8 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 1/25/2015 20:25",
+	"commentStamp" : "MartinMcClure 4/27/2016 15:02",
 	"instvars" : [
+		"name",
 		"imports",
 		"definitions" ],
 	"name" : "MistModuleSpec",

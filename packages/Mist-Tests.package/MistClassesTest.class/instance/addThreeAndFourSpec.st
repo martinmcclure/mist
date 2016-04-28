@@ -3,7 +3,7 @@ addThreeAndFourSpec
 	| spec |
 	spec := MistMethodSpec new.
 	spec
-		name: #addThreeAndFour;
+		selector: 'addThreeAndFour';
 		source:
 				'
 	addThreeAndFour

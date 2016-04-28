@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "MartinMcClure 2/5/2016 15:34",
 	"instvars" : [
+		"name",
 		"moduleSpec",
 		"metaclassSpec",
+		"classSpec",
 		"isPrivate" ],
 	"name" : "MistClassSpec",
 	"pools" : [

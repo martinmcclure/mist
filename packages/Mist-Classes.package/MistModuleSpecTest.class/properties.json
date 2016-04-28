@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-Classes-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MistModuleSpecTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -3,7 +3,7 @@ smallIntegerPlusSpec
 	| spec |
 	spec := MistMethodSpec new.
 	spec
-		name: #+;
+		selector: '+';
 		source:
 				'
 	+ aNumber

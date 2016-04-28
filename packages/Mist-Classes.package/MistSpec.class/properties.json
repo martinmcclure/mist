@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinMcClure 2/7/2016 19:23",
+	"commentStamp" : "MartinMcClure 4/27/2016 14:34",
 	"instvars" : [
-		"name",
+		"isCompiled",
 		"compiledForm" ],
 	"name" : "MistSpec",
 	"pools" : [

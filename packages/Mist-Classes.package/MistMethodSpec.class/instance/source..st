@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 source: sourceString
+	self checkMutability.
 	source := sourceString

@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addClass:" : "MartinMcClure 2/7/2014 14:38",
+		"addClass:" : "MartinMcClure 4/27/2016 16:01",
 		"compilerClass" : "MartinMcClure 1/25/2015 19:54",
 		"definitionsDo:" : "MartinMcClure 1/25/2015 20:30",
-		"initialize" : "MartinMcClure 2/7/2014 14:38" } }
+		"initialize" : "MartinMcClure 4/27/2016 15:04",
+		"name:" : "MartinMcClure 4/27/2016 15:05",
+		"printOn:" : "MartinMcClure 4/27/2016 16:23" } }

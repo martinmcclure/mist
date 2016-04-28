@@ -1,4 +1,5 @@
 initialization
 initialize
-	definitions := OrderedCollection new.
+	super initialize.
+	definitions := Dictionary new.
 	imports := OrderedCollection new.

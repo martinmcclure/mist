@@ -13,5 +13,5 @@
 	"name" : "MistBehaviorSpec",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MistSpec",
 	"type" : "normal" }

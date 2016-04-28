@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"compileIn:" : "MartinMcClure 1/25/2015 19:52",
-		"compilerClass" : "MartinMcClure 1/25/2015 19:54",
-		"name:" : "MartinMcClure 1/10/2015 12:52",
-		"printOn:" : "MartinMcClure 1/10/2015 12:50" } }
+		"checkMutability" : "MartinMcClure 4/27/2016 14:33",
+		"compileIn:" : "MartinMcClure 4/27/2016 15:34",
+		"initialize" : "MartinMcClure 4/27/2016 15:00" } }

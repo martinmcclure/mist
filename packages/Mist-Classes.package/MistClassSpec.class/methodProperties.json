@@ -2,8 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addInstanceMethod:" : "MartinMcClure 2/7/2014 14:28",
+		"addClassMethod:" : "MartinMcClure 4/27/2016 15:43",
+		"addInstanceMethod:" : "MartinMcClure 4/27/2016 15:43",
 		"classSpec" : "MartinMcClure 1/25/2015 20:39",
 		"compilerClass" : "MartinMcClure 1/25/2015 20:36",
-		"initialize" : "MartinMcClure 2/7/2014 14:32",
-		"metaclassSpec" : "MartinMcClure 1/25/2015 20:39" } }
+		"initialize" : "MartinMcClure 4/27/2016 15:42",
+		"metaclassSpec" : "MartinMcClure 1/25/2015 20:39",
+		"moduleSpec:" : "MartinMcClure 4/27/2016 16:02",
+		"name:" : "MartinMcClure 4/27/2016 16:17",
+		"printOn:" : "MartinMcClure 4/27/2016 16:24" } }
