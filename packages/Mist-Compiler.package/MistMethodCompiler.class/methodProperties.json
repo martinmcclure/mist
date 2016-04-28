@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"compile" : "MartinMcClure 1/25/2015 22:59",
+		"checkSelector" : "MartinMcClure 4/27/2016 20:40",
+		"compile" : "MartinMcClure 4/27/2016 20:44",
 		"compile:in:" : "MartinMcClure 1/25/2015 22:57",
+		"compilePrimitive" : "MartinMcClure 4/27/2016 20:44",
 		"parse" : "MartinMcClure 1/25/2015 23:04" } }

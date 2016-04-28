@@ -1,0 +1,14 @@
+{
+	"category" : "Mist-MacroFog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FogPrimitiveMethodNode",
+	"pools" : [
+		 ],
+	"super" : "FogMethodNode",
+	"type" : "normal" }

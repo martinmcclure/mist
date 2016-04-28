@@ -1,0 +1,4 @@
+private
+compilePrimitive 
+	self checkSelector.
+	

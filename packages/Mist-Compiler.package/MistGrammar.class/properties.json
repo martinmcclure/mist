@@ -14,7 +14,9 @@
 		"assignmentExpression",
 		"stringBody",
 		"doubledQuote",
-		"literalNode" ],
+		"literalNode",
+		"mistMethod",
+		"primitiveMethod" ],
 	"name" : "MistGrammar",
 	"pools" : [
 		 ],

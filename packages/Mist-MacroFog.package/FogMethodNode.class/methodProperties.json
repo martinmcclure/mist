@@ -2,4 +2,6 @@
 	"class" : {
 		"methodDeclaration:methodSequence:" : "MartinMcClure 9/13/2015 11:48" },
 	"instance" : {
-		"methodDeclaration:methodSequence:" : "MartinMcClure 9/15/2015 22:10" } }
+		"isPrimitive" : "MartinMcClure 4/27/2016 20:10",
+		"methodDeclaration:methodSequence:" : "MartinMcClure 9/15/2015 22:10",
+		"selector" : "MartinMcClure 4/27/2016 20:42" } }
